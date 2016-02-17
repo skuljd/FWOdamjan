@@ -1,0 +1,420 @@
+%!TEX program = lualatex
+
+\documentclass[11pt,dvipsnames,usenames,a4paper]{article}
+
+\usepackage[UKenglish]{babel}
+\usepackage{mathtools}
+\usepackage{color}
+\usepackage[left = 2.5 cm, right = 2.5cm, top = 3 cm, bottom = 3 cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Calibri}
+\linespread{1.15}
+\usepackage{framed,color}
+\definecolor{shadecolor}{rgb}{0.85,0.85,0.85}
+\usepackage{graphicx}
+\usepackage{tabto}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[super]{nth}
+\usepackage[hang,bf,small]{caption}
+\usepackage{float}
+\usepackage{booktabs}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{cite}
+
+\let\OLDthebibliography\thebibliography
+\renewcommand\thebibliography[1]{
+	\OLDthebibliography{#1}
+	\setlength{\parskip}{0pt}
+	\setlength{\itemsep}{0.4pt plus 0.3ex}
+}
+
+\TabPositions{5cm, 10cm}
+
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Defining some commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\todo}[1]{\textcolor{red}{\emph{#1}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Personal information
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\pagenumbering{roman}
+
+{\bf Date of the application} \tab 1 April 2016 \\
+
+
+\vspace{10pt}
+
+\begin{shaded}\centering GENERAL \end{shaded}
+\textbf{Title of your research proposal} (\textcolor{Gray}{???/240 characters})\\ *** Imprecise Continuous-Time Markov Chains *** \\[8pt]
+\textbf{Dutch title} (\textcolor{Gray}{???/240 characters})\\
+ *** ??? ***\\[8pt]
+\textbf{Summary in layman's terms}\\
+\textcolor{Gray}{???/1500 characters}\\
+
+*** ??? ***
+
+
+\vspace{10pt}
+
+\begin{shaded}\centering HOST INSTITUTION \end{shaded}
+\textbf{Main host institution} \tab Ghent University \\
+\textbf{Additional host institution(s)} \tab ???\\
+\textbf{Foreign host institution}\tab ??? \\
+
+\begin{shaded}\centering FUNDING PER HOST INSTITUTION \end{shaded}
+
+You are not allowed to request funding for foreign institutions or institutions belonging to the French-speaking community of Belgium. The staff and consumables that are applied for in the first year, have to be equal or higher compared with the funds asked for during the other years. 
+
+For each project, and in case of an interuniversitairy project, for each host institution, one can apply for €45.000 till €130.000 each year including research staff and consumables. In case one of the project partners only requests funding for consumables, the lower limit for this partner is set at €20.000. 
+
+The real cost is used when the name(s) of the researcher(s) is (are) already known. When the name(s) of the researcher(s) is (are) not yet known, the following amounts may be used as indicative costs:
+
+·         Bursary: €45,000
+
+·         Scientific staff, 0 years of seniority: €65,000
+
+·         Postdoc researcher, 4 years of seniority: €85,000
+
+·         Technical staff, 6 years of seniority: €50,000
+
+
+Additionally, it is possible to request funds for equipment up to €150.000. Matching funding is allowed up to €150.000.
+
+*** We are supposed to list all the funding we which to receive, separated into staff, consumables and equipment. ***
+
+*** We also need to include CVs: ***
+
+Provide a short CV of the personnel to be appointed on this project and already involved. 
+
+Also include a short CV (max. 1 page) for both the Flemish and foreign supervisor and all co-supervisors with 5 key peer reviewed publications that are representative for his/her scientific career. You can provide this in full text taking into account the current position and other appointments relevant for this application. It can also be important to mention previous scientific awards received and other relevant information to evaluate the scientific CV.\\
+
+\begin{shaded}\centering SUPERVISORS \end{shaded}
+
+For each of the following, we need to provide the title, name, date of birth, occupation, \%employment, e-mail, institution, research unit, street and number, postal code, city and country
+
+\textbf{Supervisor} \tab Gert de Cooman\\
+\textbf{Co-supervisor} \tab Jasper De Bock\\
+\textbf{Foreign supervisor} \tab Damjan {\v S}kulj\\
+\textbf{Foreign co-supervisor} \tab ???\\
+
+\vspace{5pt}
+
+A research project is executed under the direction of supervisors in cooperation with one or more co-supervisors. The supervisors and co-supervisors need to comply with the conditions stipulated in article 9 of the rules for research projects.
+
+The (co-)supervisors are the actual initiators of the project, and as such are responsible for it. The foreign supervisor and co-supervisors accept that the supervisor, appointed at a Flemish host institution, will act as supervisor-spokesperson towards FWO. It is not possible to use the available budget to finance the (co-)supervisors ’salaries.
+
+A researcher can only act as a (co-)supervisor for maximum two projects per application round. 
+
+A detailed list of all publications of the supervisor appointed at a Flemish host institution and all other (co-)supervisors should be submitted through the FWO E-portal before the final submission date of the call!
+NOTE: These publications do not have to be sent as a separate attachment nor as part of another attachment.
+
+\vspace{5mm}
+
+\begin{shaded}\centering ETHICS \end{shaded}
+
+Not relevant
+
+\vspace{5mm}
+
+\begin{shaded}\centering DISCIPLINES \end{shaded}
+
+{\bf Scientific field} \tab Science and Technology \\
+{\bf FWO Expert Panel} \tab Informatics and Knowledge Technology (W\&T5) \\[8pt]
+{\bf Motivation of panel choice}\\
+*** The project aims at making robust probabilistic inferences and decisions in continuous-time Markov chains. On the one hand, such a topic finds applications in fields such as queueing theory, which abound in computer and telecommunication networks. 
+On the other hand, more generally, appropriately dealing with, and making inferences in the face of, probabilistic uncertainty is common in artificial intelligence. For these reasons, the expert panel should be eminently able to judge the merits and impact of this research proposal. ***\\
+
+We also need to choose five disciplines from a list
+
+
+\vspace{5mm}
+
+\begin{shaded}\centering REFEREES \end{shaded}
+
+
+Please list 10 potential referees below and provide contact details.
+The FWO administration will contact referees from this list in a random way. 
+
+(For each of the referees, we need to provide the same info as for the supervisors (except the CV))
+
+
+Referees should be appointed at an university, research institution or research entity of another type of organization and at least at postdoctoral level.
+
+Not eligible as referee are:
+members of the Board of Directors of the FWO;
+members of an FWO expert panel;
+persons appointed to a Belgian university, research institute or any other organization or, in the case of calls for proposals in the framework of bilateral or lead agency agreements, persons appointed to similar institutions or organisations in the country where the foreign project partner is professionally active;
+persons with a professional appointment to a foreign institute where the applicant(s) has been enrolled as a student or professional after January 1st of the year n-3 (n=year of application);
+any co-authors with the applicants of a publication that was submitted or published after January 1st of the year n-3 (n=year of application); 
+
+‘Co-authorship’ is to be understood as follows:
+co-authorship of a monography of which the applicant is co-author as well;
+co-authorship of an article or another type of contribution to a collection (book, journal issue, report, congress proceedings, abstract, …) of which the applicant is co-author as well.
+Editors are not regarded as co-authors insofar as they have not also acted as what is understood under ‘co-author’ as described above. Co-editors of the applicant are not accepted as an external referee.
+partners of the applicant(s) in a research cooperation, whether formalised in a research project or not, that has been applied for or has been running after January 1st of the year n-3 (n=year of application. In this context, the following shall in any case qualify as research cooperation (non-exhaustive list):
+Cooperation under a research fellowship, granted by the FWO;
+Cooperation under a research project, whether relating to a specific subject or not or under an international cooperation project, granted by the FWO;
+Cooperation under the Odysseus programme or the Big Science programme, granted by the FWO;
+Cooperation under a Scientific Research Network, granted by the FWO;
+Cooperation under programmes similar to those mentioned above, granted by organisations other than the FWO;
+Joint research work not formalised in a cooperation structure as defined above;
+Research carried out in the research areas and/or with research facilities provided by the applicant to the referee or vice versa;
+...
+The applicants are responsible for the eligibility of the proposed referees. Whenever the proposed referees do not comply with the eligibility criteria, the application will be declared ineligible.
+
+In case the applicant(s) doubts the eligibility of one or more of the proposed referees, he or she can also contact the FWO through his/her e-loket account before submitting the application. The questions concerning eligibility that reached the FWO before the application was submitted will be presented to the FWO referee commission of the appropriate scientific domain, consisting of all expert panels’ chairs of that domain. Five referee commissions are established, one for each domain: biological sciences, humanities, social sciences, medical sciences and science \& technology; for applications submitted to the Interdisciplinary Panel the referee commissions of the respective scientific domains will be consulted. In case co-authorship is detected in publications with ten or more authors, the FWO administration will consult the referee commission as well. In all the above cases, the referee commission will decide on the alleged eligibility of the proposed referees. When the referee commission decides negatively on the eligibility of a proposed referee in an application that has already been submitted, this application will be disqualified. When the referee commission answers negatively to a question concerning the eligibility of a proposed referee that reached the FWO before the application was submitted, the applicant will be asked to propose a new referee that does meet the eligibility criteria. 
+After the administrative check, the FWO will inform the applicant about the violations that were found. In case the alleged violations result from a factual error of the FWO administration, the FWO can be notified. 
+For the integral regulations on internal and external peer review, see: http://www.fwo.be/en/the-fwo/organisation/fwo-expertpanels/regulations-fwo–-internal-and-external-peer-review/.
+
+\vspace{10pt}
+
+\begin{shaded}\centering EXTRA DATA \end{shaded}
+
+\textbf{Mention other funding, applied for elsewhere or already available. (Optional)}\\
+\textcolor{Gray}{???/3000}\\
+
+Should we mention the projects of Stavros and Alexander?
+
+
+\vspace{7pt}
+
+
+
+
+\vspace{5mm}
+
+\begin{shaded}\centering RESEARCH CONTEXT \end{shaded}
+\textbf{What is the added value of this scientific collaboration.}\\
+\textit{Elaborate on the complementary expertise of the project partners and explain how the project parts are integrated and relevant for the scientific input from both sides. Explain how this project fits in the research activities of your research group and the foreign research group. If the project has already been initiated, please state the progression of your research.}\\
+\textcolor{Gray}{???/3000 characters}
+
+???
+
+
+
+
+The Data Science Lab has world-leading expertise in the entire data value chain, from data acquisition, storage, representation and coding, to mining and learning from data, and finally valorization. The imprecise probability subunit conducts basic research on extensions of classical probability theory, uses these extensions to develop robust uncertainty models, and combines these models with data to perform reliable statistical inference and decision making.
+
+In the recent past, SMACS and the imprecise probability subunit of Data Science Lab (then part of the SYSTeMS research group) have  joined forces to incorporate imprecise probability in queueing theory and its applications. This was a.o. substantiated in an FWO-project, and is expected to lead to a first Ph.D.-thesis in 2016. That project focussed on discrete-time stochastic processes, while queueing studies frequently adopt continuous-time models. Incorporating imprecision in this type of models is a challenge, as described further in the proposal, and it is this challenge that we intend to tackle in this new project.
+
+\textbf{Provide the national and international context of the project.}\\
+\textit{Mention research collaborations, larger projects, programmes and international networks in which your research can be situated.}\\
+\textcolor{Gray}{???/1800 characters}
+
+???
+
+\textbf{Describe the past cooperation between the project partners.}\\
+\textcolor{Gray}{???/1800 characters}
+
+
+
+
+
+
+%Joris Walraevens' research interests lie especially in modelling and analysis of heterogeneous networks and heterogeneity in the requirements of current network applications.
+%It is in these applications of queueing theory that imprecision (or robustness) is a big factor: modelling the stochastic processes in queueing models is entirely based on information from traces (or even one single trace!), that consist of measurement data of current networks, and which are used as a source for prediction of future traffic patterns.
+%The robustness of the performance of these heterogeneous and wireless networks to uncertainty in the offered traffic pattern (load, variance, (in)dependences, ...) is obviously of great practical importance.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The actual research proposal
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\pagenumbering{arabic}
+
+\setcounter{page}{1}
+
+\begin{shaded}\centering PROJECT OUTLINE \end{shaded}
+
+\textbf{Indicate the state of the art.}
+
+
+*** this is a part of the text of some previous proposal, which could serve as an example of the type of text we are looking for here ***
+
+Lots of text on queueing theory used to be here...
+
+Basically, imprecise probability theory~\cite{augustin2013:itip,walley1991,troffaes2013:lp} is an extension of probability theory that allows for partial probability specifications.
+For example, whenever it is infeasible to reliably estimate the probability of some event, this theory allows for the use of a probability interval instead.
+Such partial specifications do not lead to a unique probability measure, but instead give rise to a set of compatible probability measures.
+These sets of probability measures are called credal sets, and they are the basic uncertainty models in imprecise probability theory.
+Lower and upper expectations, lower and upper probabilities, belief functions and possibility measures can all be regarded as special cases~\cite{walley2000}.
+This approach is particularly useful when information is scarce, expensive, vague, or conflicting, in which case a unique probability measure may be hard to identify. Imprecise probability theory then takes this additional uncertainty into account, and produces robust analyses and decisions.
+
+Despite the simplicity and elegance of the basic concept of imprecise probabilities, the resulting theory is extremely powerful.
+Indeed, credal sets are very general, and can be used to model various types of uncertainty, ranging from pure stochastic uncertainty (a single probability measure) to a complete lack of knowledge (the set of all probability measures), and everything in between.
+It should be stressed that imprecise probability theory is not just about taking a precise model and varying its parameters.
+Additionally, it can also drop the traditional simplifying assumptions that were mentioned before, such as independence and stationarity, and can predict the effects of dropping these assumptions on output variables~\cite{couso1999b,walley1991,cozman2000}.
+
+However, as is to be expected, the generality and flexibility of this approach comes at a price.
+Inference in imprecise probability models tends to be computationally challenging, and it often requires high-dimensional non-linear optimisation problems to be solved.
+Although state of the art research on imprecise probability has focussed rather extensively on the development of efficient computational inference methods, this line of research is ongoing, and many types of inference remain intractable.
+Nevertheless, for the special case of discrete time imprecise stochastic processes, recent breakthroughs have led to the discovery of some powerful theoretical properties, which in turn have led to the development  of efficient (often linear or polynomial) algorithms~\cite{cooman2009,cooman2008}.
+Rather remarkably, these algorithms can easily deal with different types of model uncertainty, even for stochastic processes that drop the usual independence or stationarity assumptions.
+
+It should therefore not be surprising that these algorithms can be used to perform robust queueing analyses. Indeed, the algorithm in Reference \cite{cooman2008} was essential to the results in Reference~\cite{2015Lopatatzidis}, where the authors considered a discrete-time queue of finite length with a single server and Bernoulli arrivals and departures, and robustified it in the following way.
+Instead of assuming that the probability of a Bernoulli arrival (or departure) is known exactly, they assumed that this parameter takes (unknown) values in some known interval. They also allowed this parameter to be non-stationary, and dropped the stochastic independence assumption by replacing it by weaker imprecise independence notions, such as repetition independence and epistemic irrelevance.
+Even with all these layers of robustness in place, it was still possible to efficiently perform queueing analyses with this model, and these analyses furthermore led to some surprising new insights. For example, in the precise case, it follows from ergodicity that the limiting distribution of the number of customers is equal to their time-averaged distribution. However, because ergodicity breaks down in the imprecise case~\cite{deCooman2015}, these two distributions are not equally robust: the analysis in Reference~\cite{2015Lopatatzidis} showed that dropping the independence assumption can result in substantial changes to the steady state state distribution, but that the effect on the time-averaged distribution is less profound.
+
+%This is a consequence of the fact that ergodicity does not necessarily hold for imprecise Markov chains with finite state sets, something which has been proven in \todo{\cite{deCooman2015} @Jasper: Of vertel ik hier onzin?}.
+
+%\todo{Joris: het bovenstaande vind ik een beetje (te?) uitgebreid}
+
+Nevertheless, despite this initial success and the new insights that resulted from it, there is still an important mismatch between imprecise probability theory and queueing models.
+On the one hand, most of queueing theory is developed for continuous-time models: although synchronization in telecommunication networks has sparked a surge of analyses of discrete-time models from the nineties onwards, continuous-time models are still the standard.
+On the other hand, imprecise probability theory has advanced almost unanimously for discrete-time stochastic processes.
+Imprecise continuous-time models have been explored only very recently \cite{Skulj2015,Troffaes+GSB-ISIPTA15p}, and many basic theoretical and computational problems have yet to be solved.
+
+\vspace{3mm}
+
+\textbf{Describe the objectives of the research.}\\
+\textit{Describe the envisaged research and the research hypothesis, why it is important to the field, what impact it could have, whether and how it is specifically unconventional and challenging.}
+
+*** this is a part of the text of some previous proposal, which could serve as an example of the type of text we are looking for here ***
+
+The main objective of the proposed project is to \emph{use imprecise probabilities to develop a general framework for robust continuous-time queueing models}, in which the  imprecision of the input stochastic processes and their parameters is not ignored, but instead explicitly included. This framework will be able to predict the effect of this imprecision on relevant performance measures, for example by providing bounds on their expected value, and can then be used to make safer design choices that are robust against modelling errors.
+
+%The inferences of these models are a set of output distributions rather than one completely specified distribution and are therefore robust against imprecision in the input distributions.
+
+Key in the success of this proposal will be the development of \emph{efficient algorithms} that can, for example, compute the aforementioned bounds. To this end, imprecise probability for \emph{continuous-time} stochastic processes will have to be developed. This will be a challenging line of research, because the topic is almost completely unexplored: to the best of our knowledge, References~\cite{Troffaes+GSB-ISIPTA15p} and~\cite{Skulj2015} are the only exceptions. However, given our experience in designing efficient algorithms for imprecise \emph{discrete-time} stochastic processes~\cite{cooman2008} and applying them to discrete-time queueing theory~\cite{2015Lopatatzidis}, we are convinced that we have the necessary background to successfully tackle similar problems in continuous-time.
+
+If successful, this research has the potential to disrupt the queueing theory paradigm.
+Indeed, the Achilles' heel of using (predominantly continuous-time) queueing models for decision support, prediction and dimensioning in practical applications is the fact that usually, these models and their calibration are uncertain themselves.
+In an attempt to deal with this issue, the goal of queueing theory in the last hundred years has been to analyse increasingly generalised, complicated and intricate queueing models.
+Although successful on its own, this approach often inspires overconfidence in its results, and gaining confidence in the input distributions is not treated with the same attention or is neglected altogether.
+Once numbers are produced, the dependency on the input is often forgotten all too easily.
+Instead, we plan to develop a (continuous-time) queueing theory that takes this dependency into account. In this theory, it is explicitly acknowledged that we do not know the input precisely, and, as a result, the resulting output and decisions are robust with respect to this imprecision. Furthermore, calibration of the input will be much easier, and we are convinced that efficient algorithms are in the picture as well.
+
+The proposed research is unconventional from the perspective of both domains that intersect in this project.
+First of all, although some attempts at robustifying queueing theory have already been undertaken (see the state-of-the-art section), it is still unconventional in queueing theory to drift away from precise probabilities. Even more unconventional is that the described approach also breaks with traditional assumptions such as stochastic independence, the Markov property and so on, which also results in infringements of ergodicity in cases where ergodicity comes natural in precise probability.
+From an imprecise probability perspective, the models are unconventional because time is taken to be continuous, whereas past research on imprecise stochastic processes has focussed almost unanimously on discrete-time problems.
+
+
+\vspace{7pt}
+
+\textbf{Describe the methodology of your research.}\\
+\textit{Be as detailed as necessary for a clear understanding of what you propose.
+Describe the different envisaged steps in your research, including intermediate goals. Indicate how you will handle unforeseen circumstances, intermediate results and risks.
+Show where the proposed methodology is according to the state of the art and where it is novel.
+Enclose risks that might endanger reaching project objectives and the contingency plans to be put in place should risk occur.}
+
+
+*** this is a part of the text of some previous proposal, which could serve as an example of the type of text we are looking for here ***
+
+The first step in this project will be to \emph{develop robust versions of the basic building blocks of queueing models, that is, imprecise arrival and service-time processes} {\bf(Work Package 1)}.
+Initially, given their popularity and importance, we will focus on developing imprecise versions of Poisson processes and exponential distributions, with increasing degrees of robustness.
+A first level of robustness will be added by allowing the parameter of Poisson processes and exponential distributions to vary within intervals.
+Next, additional layers of robustness will be added by allowing this parameter to be time-dependent and eventually even history-dependent.
+We intend to achieve this in a very rigorous way, by dropping the independence axioms that are traditionally used to define Poisson processes and exponential distributions, and replacing them with increasingly weaker axioms.
+Each additional layer of robustness will result in a more flexible and realistic uncertainty model, at the cost of increased theoretical and computational complexity.
+However, given that the Data Science Lab has already successfully tackled this kind of issues for discrete-time robust stochastic processes~\cite{hermansITIP}, we expect to be able to obtain similar successes in this continuous-time case. In a later stage, we will try to robustify other continuous-time distributions and arrival processes, such as Erlang distributions and Markovian arrival processes.
+
+The second step in this project consists in using the imprecise arrival and service-time processes of the first step to \emph{develop robust queueing models} {\bf(Work Package 2)}.
+Basically, the idea is to consider existing queueing models, and to replace their arrival and service-time processes by our imprecise versions.
+We intend to start by developing a robust version of the $M/M/1$ queue, where customers arrive according to an imprecise Poisson process, one server serves the waiting customers in an FCFS order, and service times have an imprecise exponential distribution.
+In the precise case, the number of customers in the queue can then be described by a continuous-time birth-death chain.
+Similarly, we would like to show that in the imprecise case, the number of customers can be described by a continuous-time imprecise birth-death chain, which is a simple type of continuous-time imprecise Markov chain~\cite{Skulj2015}.
+Similarly, for more complex queueing models, we intend to show that the number of customers can be described by more complex imprecise Markov chains.
+
+Clearly, step two will require us to \emph{establish a rigorous theoretical basis for continuous-time imprecise Markov chains}, and we regard this as a third part of this research {\bf(Work Package 3)}, which we intend to initiate before---and then continue in parallel with---the second step. Some preliminary research has already been conducted on this topic~\cite{Skulj2015}, including some recent unpublished work by the imprecise probability subunit of the Data Science Lab, but it is fair to say that there are still many unsolved basic theoretical and computational problems left. For example, past research on imprecise continous-time Markov chains only considered finite state spaces, whereas basic queueing theory often considers countably many states. %\todo{*** what do you mean by that? ***} *** references ***
+
+The three steps that were discussed above are purely theoretical, and consist of developing a formal framework in which to study imprecise arrival and service-time processes, imprecise Markov chains, and ways of combining these to construct robust queueing models.
+In order to be able to use these models in practice, this formal framework will need to be complemented with efficient computational methods.
+In particular, it will be necessary to develop methods that are able to provide us with exact bounds on performance measures---such as the average occupancy or delay---that reflect the extent to which the imprecision in the input affects the output.
+Indeed, once we have these bounds, they can then be used to make robust a priori design choices while dimensioning a queueing system, such as determining the needed buffer space or the desired number of servers, in order to achieve the desired performance.
+Similarly, for systems whose number of servers can vary over time, these bounds can be used to design robust dynamic server policies.
+Given the importance of these bounds, a fourth step in this project will be to \emph{extend the existing computational methods for continuous-time imprecise Markov chains}~\cite{Skulj2015,Troffaes+GSB-ISIPTA15p}, and to \emph{use these methods to efficiently compute exact bounds on performance measures} {\bf(Work Package 4)}.
+
+Although we expect to reach the majority of the above goals, it might of course happen that we do not. For example, some types of performance measures might turn out to be inherently intractable to compute with, or we might come across stochastic processes for which adding three layers of robustness (allowing their parameters to be interval-valued, time- and history dependent) results in a model that is simply too complex to work with. However, even if we were to come across such problems, this will not endanger the global aim of the first part of this project, which is to develop robust continuous-time queueing models. Indeed, there are various types of stochastic processes, increasingly complex ways of adding robustness, and many performance measures of interest. Adding a modest amount of robustness to simple queueing models will definitely be possible, and this alone suffices to continue with the rest of this project. However, of course, our intention is to go much further: ideally, we would like to develop a general framework for working with robust continuous-time queueing models.
+%In any case, regardless on how general our study ends up being, we definitely expect to be able to develop robust continuous-time queueing models, and this will allow us to move to a next step.
+
+As should have become clear from the explanation above, our proposed research does not work towards a specific application, neither does it try to build an ad hoc model for some specific problem.
+Instead, our aim is to build a general framework for robust continuous-time queueing theory.
+Nevertheless, if we succeed in developing such a general framework, then of course, it can be used to study and solve a variety of problems, in different types of queueing applications. In order to demonstrate this, we intend to \emph{use our framework to analyse one or two specific queueing applications} {\bf(Work Package 5)}.
+Our choice of applications will depend on the level of complexity that our framework is able to deal with, but since robustness is an essential feature of our approach, we intend to focus on problems where this feature is important, that is, applications where the exact values of the parameters of the model are uncertain (e.g. telecommunication) and/or non-stationary (e.g. call centres \cite{Defraeye20164}).
+
+The purpose of this applied side of the project is only to test and validate the usefulness of our theory. Therefore, tackling this applied part will not require us to learn imprecise stochastic processes from data (e.g.\ Internet traces). For the purposes of this project, we can simply start from precise stochastic processes---learnt by means of existing methods, that is, by proposing a model that is deemed adequate and then applying estimation theory (see e.g.\ \cite{Breuer2002}) to estimate its parameters---and can then add increasing amounts of imprecision to these precise stochastic processes in order to study the robustness of the resulting outputs. %The initial precise model can then be learnt by means of existing methods, that is, by proposing a model that is deemed adequate and then applying estimation theory (see e.g.\ \cite{Breuer2002}) to estimate its parameters.
+However, in a later phase, it would of course be better to \emph{develop methods for learning imprecise continuous-time stochastic processes directly from data} {\bf(Work Package 6)}. At this point, we envision that this last topic will only be marginally treated in the project. However, if necessary, it does provide us with a contingency plan that is of independent interest.
+
+\vspace{7pt}
+
+\textbf{Provide a work plan, i.e. the different work packages and detailed timetable.}\\
+\textit{Describe the different work packages (WP) the proposed research work will be divided in.
+Indicate for each WP the time that it is expected to take.
+You might use a table or another type of scheme to clarify the work plan. Clearly indicate the contribution of each project partner, taking into account the complementary expertise of the project partners.}
+
+
+*** this is a part of the text of some previous proposal, which could serve as an example of the type of text we are looking for here ***
+
+\begin{table}[H]
+    \caption{Summary and time line of work packages}
+    \label{tab:timing}
+    \centering
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{r | l | c|c|c|c | c|c|c|c | c|c|c|c | c|c|c|c}
+           & \textbf{Short description} & \multicolumn{4}{c|}{\textbf{\nth{1} year}}   & \multicolumn{4}{c|}{\textbf{\nth{2} year}} & \multicolumn{4}{c|}{\textbf{\nth{3} year}} & \multicolumn{4}{c}{\textbf{\nth{4} year}} \\ \hline
+           \textbf{WP1} & Develop imprecise CT input processes    & x & x & x & x & o & o &   &   &   &   &   &   &   &   &   &    \\ \hline
+           \textbf{WP2} & Develop robust CT queueing models          &   &   &   & o  &  x & x & x  & x  & x & x & o & o  &  o &   &   &    \\ \hline
+           \textbf{WP3} & Develop imprecise CT Markov chains         &   &   & x & x & x & x & x & o & o &   &   &   &   &   &   &    \\ \hline
+           \textbf{WP4} & Design efficient algorithms  &   &   &   &   &   &   & o  & x & x & x & x & x & o & o &   &    \\ \hline
+           \textbf{WP5} & Apply our framework to real problems             &   &   &   &   &   &   &   &   &   &   & o & o & x & x & x & x \\ \hline
+           \textbf{WP6} & Learn imprecise CT models from data     &   &   &   &   &   &   &   &   & o & o & o & x & o & o & o & o
+        \end{tabular}
+    }
+\end{table}
+
+A Ph.D.\ fellowship, and therefore also the work on the proposed research, is spread over a period of four years.
+I have indicated these four years in Table~\ref{tab:timing}, and have divided every year in four periods of three months (i.e. quarters).
+The work of the proposed research was already divided in work packages in the previous section.
+For each work package, Table~\ref{tab:timing} provides a short description (CT stands for `continuous-time') and indicates the quarters during which I expect to be working on it.
+I tick the box of a quarter with an x to indicate almost certainties; these are the quarters during which I expect to definitely spend time on the indicated work package.
+I use o's to tick boxes of which I am not yet certain that I will need and/or use them.
+These o-quarters are used to absorb setbacks or to allow for some flexibility, and indicate the maximum amount of time that I intend to spend on a given work package. As explained in our methodology, the work on (WP2) is initiated after the work on (WP3) because it relies on some of its results. Furthermore, as also explained before, (WP6) is currently not at the core of the proposed research, but can serve as a contingency plan if necessary.
+
+% Alternative:
+% \begin{table}[H]
+%     \caption{Summary of work packages}
+%     \centering
+%     \begin{tabular}{c l}
+%         \toprule
+%                      Work package & Very short description \\
+%         \midrule
+%        (WP1)    & Imprecise arrival and service-time processes \\
+%        (WP2)    & Development of robust queueing models \\
+%        (WP3)    & Continuous-time imprecise Markov chains \\
+%        (WP4)    & Computing bounds on performance measures \\
+%        (WP5)    & Learning robust queueing models from data \\
+%        (WP6)    & Applications of robust queueing models \\
+%        \bottomrule
+%     \end{tabular}
+%     \begin{tabular}{l c cccc c cccc c cccc c cccc}
+%         \toprule
+%         & \hspace{.1em} & \multicolumn{4}{c}{\nth{1} year}   & \hspace{.5em}    & \multicolumn{4}{c}{\nth{2} year}      & \hspace{.5em} & \multicolumn{4}{c}{\nth{3} year} & \hspace{.5em} & \multicolumn{4}{c}{\nth{4} year} \\
+%         \midrule
+%         WP1    & & x & x & x & x &   & x & x &   &   &   &   &   &   &   &   &   &   &   &    \\
+%         WP2    & &   &   &   &   &   & x & x & x & x &   & x & x & x &   &   &   &   &   &    \\
+%         WP3    & &   &   &   &   &   &   &   &   &   &   &   &   & x & x &   & x & x & x & x   \\
+%         WP4    & &   &   &   &   &   &   &   &   &   &   &   &   & x & x &   & x & x & x & x   \\
+%         WP5    & &   &   &   &   &   &   &   &   &   &   &   &   & x & x &   & x & x & x & x   \\
+%         WP6    & &   &   &   &   &   &   &   &   &   &   &   &   & x & x &   & x & x & x & x   \\
+%         \bottomrule
+%     \end{tabular}
+% \end{table}
+
+%\vspace{3pt}
+
+\bibliographystyle{plain}
+\renewcommand\refname{\normalsize Enumerate the bibliographical references that are relevant for your research proposal.}
+\bibliography{bibliography}
+
+\vspace{5mm}
+
+\textbf{Indicate below whether you think the results of the proposed research will be suitable to be communicated to a non expert audience and how you would undertake such communication.}\\
+\textit{FWO encourages its fellows to disseminate the results of their research widely, and valorize them where possible.}
+
+
+
+\end{document}
