@@ -3,6 +3,7 @@
 \documentclass[11pt,dvipsnames,usenames,a4paper]{article}
 
 \usepackage[UKenglish]{babel}
+\usepackage{amssymb}
 \usepackage{mathtools}
 \usepackage{color}
 \usepackage[left = 2.5 cm, right = 2.5cm, top = 3 cm, bottom = 3 cm]{geometry}
@@ -22,6 +23,7 @@
 \usepackage{parskip}
 \usepackage{hyperref}
 \usepackage{cite}
+% \usepackage{enumerate}
 
 \let\OLDthebibliography\thebibliography
 \renewcommand\thebibliography[1]{
@@ -44,29 +46,93 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \pagenumbering{roman}
 
-{\bf Date of the application} \tab 1 April 2016 \\
+{\bf Date of the application} \tab\tab 1 April 2016 \\
+{\bf Official internal deadline Ghent university} \tab 15 March 2016 \\
+{\bf Unofficial internal deadline Ghent university} \tab {\bf\color{blue}24 March 2016} \\
 
-
-\vspace{10pt}
+%\vspace{2pt}
 
 \begin{shaded}\centering GENERAL \end{shaded}
-\textbf{Title of your research proposal} (\textcolor{Gray}{???/240 characters})\\ *** Imprecise Continuous-Time Markov Chains *** \\[8pt]
-\textbf{Dutch title} (\textcolor{Gray}{???/240 characters})\\
- *** ??? ***\\[8pt]
+\textbf{Title of your research proposal} (\textcolor{Gray}{39/240 characters})\\
+Imprecise continuous-time Markov chains\\[8pt]
+\textbf{Dutch title} (\textcolor{Gray}{38/240 characters})\\
+Imprecieze continue-tijd Markov ketens\\[8pt]
 \textbf{Summary in layman's terms}\\
-\textcolor{Gray}{???/1500 characters}\\
+\textcolor{Gray}{1469/1500 characters}\\
+Markov chains are among the most popular probabilistic models, and are very succesful at describing the uncertain evolution of various systems in time. Such a system can be in one of several states, and moves in between these states as time progresses. At what time and to which state it will move next is uncertain, and is therefore modelled by means of probabilities, which are assumed to only depend on the current state. 
 
-*** ??? ***
+When a Markov chain is set up, it is surprisingly convenient to make predictions about the future behaviour of such a process, and this makes it a popular tool in various applied domains, including engineering, artificial intelligence, mathematical finance and bio-informatics. However, in order to make these predictions reliable, perfect knowledge of the parameters of the Markov chain is required, and this is almost never possible. 
+%Consequently, the longer the process evolves, the less reliable the predictions of a Markov chain typically are. 
+An efficient way of fixing this issue is to allow for partially specified parameters, using imprecise probabilities.
 
+In the recent past, this idea has led to the successful development of so-called imprecise Markov chains in discrete time, and the universities of Ghent and Ljubljana have been on the forefront of this research. The aim of this project is to formalize this mutual interest, and to use our combined expertise to develop imprecise Markov chains in continuous time, thereby making it possible to apply imprecise Markov chains to real-life problems, the majority of which involve continuous time.
+
+
+
+% Since the majority of past research on imprecise Markov chains was conducted at the universities of Ghent and Ljubljana, project aims to formalize this long-term mutual interest, and 
+
+% This project aims at generalizing the theory of Markov chains in continuous time, using imprecise probabilities, thereby extending the recent successful development of imprecise discrete time Markov chains to continuous time. The majority of the work on imprecise Markov models has been done at the Universities of Ghent and Ljubljana. We now intend to formalize this long time cooperation. 
+
+% {\color{Gray}
+% old example:
+
+% Queueing theory is the study of waiting in line. It is often used to study problems in telecommunications, but also has applications in, for example, operations research. It studies systems which consist of servers, packets that need servicing and buffers to temporarily store these packets. The necessity of buffers is a consequence of the uncertainty in the arrival points and required service times of the packets.
+
+% To model and reason with this uncertainty, we use methods from probability theory. These methods aid us in making smart design choices that enable us to achieve the desired system characteristics. One crucial problem is that most often we are not only uncertain about the arrival time points and service times themselves, but also about the validity of the probabilistic models we use for studying them. The theory of imprecise probability is a recent development of probability theory that is designed to deal with this so-called model uncertainty in a robust way.
+
+% The project initially aims at further developing the part of this general theory that is relevant to continuous-time queueing theory. Afterwards, we will apply the developed methods and techniques to queueing applications and evaluate their usefulness. Expertise is needed from two research groups at Ghent University: SMACS, who are focused on queueing theory and applications in communication, and the Data Science Lab, whose expertise lies in robust uncertainty modelling using imprecise probabilities.
+% }
 
 \vspace{10pt}
 
 \begin{shaded}\centering HOST INSTITUTION \end{shaded}
 \textbf{Main host institution} \tab Ghent University \\
-\textbf{Additional host institution(s)} \tab ???\\
-\textbf{Foreign host institution}\tab ??? \\
+\textbf{Additional host institution(s)} \tab None\\
+\textbf{Foreign host institution}\tab University of Ljubljana \\
 
 \begin{shaded}\centering FUNDING PER HOST INSTITUTION \end{shaded}
+
+*** We are supposed to list all the funding we which to receive, separated into staff, consumables and equipment, AND for each host institution separately. ***
+
+*** {\bf\color{blue}For each staff member, we must provide the following information:
+
+- Staff type (choose between fulltime scientist, parttime scientist, fulltime technician and parttime technician)
+
+- Motivation (in full text, max 1500 characters)
+
+- First Name
+
+- Last Name
+
+- Date of Birth (optional)
+
+- Academic degree (optional)
+
+- current employer (optional)
+
+- a required amount per year (for 2017, 2018, 2019 and 2020 separately) (the amount in the first year should be equal or higher than during the other years)
+
+} ***
+
+*** {\bf\color{blue}For each off the consumables we request, we must provide the following information:
+
+- Consumable type (choose between Other, Publication costs, Research expenses, Small equipment < euro 20000, Travel and accomodation costs)
+
+- Detailed description of consumables (in full text, max 1500 characters)
+
+- Motivation (in full text, max 1500 characters)
+
+- a required amount per year (for 2017, 2018, 2019 and 2020 separately) (the amount in the first year should be equal or higher than during the other years)
+
+} ***
+
+*** {\bf\color{blue} you can also ask for equipment, but that is for large and very costly equipment, which does not apply to us} ***
+
+!! The FWO rules only apply to the Belgian part of the funding.
+
+We also have to specify the Slovenian funding in detail, but the FWO will only check basic rules for that funding, such as that the maximum cannot exceed the Slovenian limit, and that the Belgian part of the funding should be larger than the Slovenian part. The details of the Slovenian funding will be checked by the Slovenian agency, which means that if they are OK with using the funding to partially pay people, then the FWO does not care about that (except maybe for the supervisor, I'm not yet 100\% sure about that). Similarly for putting the same Slovenian person on multiple projects: if the Slovenian agency agrees, then it should be OK from an administrative point of view. However, I do think that we should be careful with this. If the jury notices that the same person intends to work (get payed from) two different projects, perhaps this has a negative effect on our chances.
+
+{\color{Gray}These are the rules (for the Belgian part of the funding):
 
 You are not allowed to request funding for foreign institutions or institutions belonging to the French-speaking community of Belgium. The staff and consumables that are applied for in the first year, have to be equal or higher compared with the funds asked for during the other years. 
 
@@ -84,34 +150,81 @@ The real cost is used when the name(s) of the researcher(s) is (are) already kno
 
 
 Additionally, it is possible to request funds for equipment up to €150.000. Matching funding is allowed up to €150.000.
+}
 
-*** We are supposed to list all the funding we which to receive, separated into staff, consumables and equipment. ***
 
-*** We also need to include CVs: ***
+{\bf\color{blue}*** We need to include a (standard) CV for the personnel that will be appointed on the project (if we know them already). Furthermore, for a each of the (co-)supervisors, we need a brief one-page CV (The first half page should consist of full text, and should difinitely contain the current position, other appointments relevant for this application, previous scientific awards received and other relevant information to evaluate the scientific CV. The second half of the page should list 5 key peer reviewed publications that are representative for the (co-)promotor's scientific career. ***}
+
+{\color{Gray}
+These are the rules:
 
 Provide a short CV of the personnel to be appointed on this project and already involved. 
 
-Also include a short CV (max. 1 page) for both the Flemish and foreign supervisor and all co-supervisors with 5 key peer reviewed publications that are representative for his/her scientific career. You can provide this in full text taking into account the current position and other appointments relevant for this application. It can also be important to mention previous scientific awards received and other relevant information to evaluate the scientific CV.\\
+Also include a short CV (max. 1 page) for both the Flemish and foreign supervisor and all co-supervisors with 5 key peer reviewed publications that are representative for his/her scientific career. You can provide this in full text taking into account the current position and other appointments relevant for this application. It can also be important to mention previous scientific awards received and other relevant information to evaluate the scientific CV.}\\
 
 \begin{shaded}\centering SUPERVISORS \end{shaded}
+\vspace{2pt}
 
-For each of the following, we need to provide the title, name, date of birth, occupation, \%employment, e-mail, institution, research unit, street and number, postal code, city and country
+\textbf{Supervisor:} Gert de Cooman\\
+Title: Prof.\\
+First name: Gert\\
+Surname: De Cooman\\
+Date of birth: 30/09/1964\\
+Current occupation: Professor\\
+Employment (\%): 100\\
+E-mail: gert.decooman@ugent.be\\
+Institution: Ghent University\\
+Research unit: Imprecise Probability unit of the Data Science Lab\\
+Street and number: Technologiepark-Zwijnaarde 914\\
+Postal Code: 9052\\
+City: Zwijnaarde (Gent)\\
+Country: Belgium\\[7pt]
+\textbf{Co-supervisor:} Jasper De Bock\\
+Title: Dr.\\
+First name: Jasper\\
+Surname: De Bock\\
+Date of birth: 04/09/1988\\
+Occupation: Postdoctoral FWO Fellow\\
+Employment (\%): 100\\
+E-mail: jasper.debock@ugent.be\\
+Institution: Ghent University\\
+Research unit: Imprecise Probability unit of the Data Science Lab\\
+Street and number: Technologiepark-Zwijnaarde 914\\
+Postal Code: 9052\\
+City: Zwijnaarde (Gent)\\
+Country: Belgium\\[7pt]
+\textbf{Foreign supervisor:} Damjan {\v S}kulj\\
+Title: Prof.\\
+First name: Damjan\\
+Surname: {\v S}kulj\\
+Date of birth: {11/03/1975}\\
+Current occupation: {Associate professor}\\
+Employment (\%): {100}\\
+E-mail: {damjan.skulj@fdv.uni-lj.si}\\
+Institution: University of Ljubljana\\
+Research unit: {Faculty of Social Sciences}\\
+Street and number: {Kardeljeva plo\v s\v cad 5}\\
+Postal Code: {SI-1000}\\
+City: {Ljubljana}\\
+Country: {Slovenia}\\%[5pt]
 
-\textbf{Supervisor} \tab Gert de Cooman\\
-\textbf{Co-supervisor} \tab Jasper De Bock\\
-\textbf{Foreign supervisor} \tab Damjan {\v S}kulj\\
-\textbf{Foreign co-supervisor} \tab ???\\
 
-\vspace{5pt}
+%\textbf{Foreign co-supervisor} \tab ???\\
+
+%\vspace{5pt}
+
+{\color{Gray}
+These are the rules:
 
 A research project is executed under the direction of supervisors in cooperation with one or more co-supervisors. The supervisors and co-supervisors need to comply with the conditions stipulated in article 9 of the rules for research projects.
 
-The (co-)supervisors are the actual initiators of the project, and as such are responsible for it. The foreign supervisor and co-supervisors accept that the supervisor, appointed at a Flemish host institution, will act as supervisor-spokesperson towards FWO. It is not possible to use the available budget to finance the (co-)supervisors ’salaries.
+The (co-)supervisors are the actual initiators of the project, and as such are responsible for it. The foreign supervisor and co-supervisors accept that the supervisor, appointed at a Flemish host institution, will act as supervisor-spokesperson towards FWO. {\bf It is not possible to use the available budget to finance the (co-)supervisors ’salaries.}
 
-A researcher can only act as a (co-)supervisor for maximum two projects per application round. 
+A researcher can only act as a (co-)supervisor for maximum two projects per application round.
+}
 
-A detailed list of all publications of the supervisor appointed at a Flemish host institution and all other (co-)supervisors should be submitted through the FWO E-portal before the final submission date of the call!
-NOTE: These publications do not have to be sent as a separate attachment nor as part of another attachment.
+{\color{blue}\bf *** A detailed list of all publications of all the (co-)supervisors should be submitted through the FWO E-portal before the final submission date of the call!
+NOTE: These publications do not have to be sent as a separate attachment nor as part of another attachment, but should be entered into the E-loket of the FWO. ***}
 
 \vspace{5mm}
 
@@ -125,23 +238,49 @@ Not relevant
 
 {\bf Scientific field} \tab Science and Technology \\
 {\bf FWO Expert Panel} \tab Informatics and Knowledge Technology (W\&T5) \\[8pt]
-{\bf Motivation of panel choice}\\
-*** The project aims at making robust probabilistic inferences and decisions in continuous-time Markov chains. On the one hand, such a topic finds applications in fields such as queueing theory, which abound in computer and telecommunication networks. 
-On the other hand, more generally, appropriately dealing with, and making inferences in the face of, probabilistic uncertainty is common in artificial intelligence. For these reasons, the expert panel should be eminently able to judge the merits and impact of this research proposal. ***\\
+{\bf Motivation of panel choice}\\[6pt]
+This project aims to develop a theory of imprecise continuous-time Markov chains. On the one hand, such a topic finds applications in fields such as queueing theory, which abound in computer and telecommunication networks. On the other hand, this topic falls squarily within the field of imprecise probabilities. Probabilistic approaches have always been prominent in artificial intelligence and data mining, and recently, the more specific case of imprecise probabilities has been well received at various AI conferences (best student paper award at ECSQARU 2013 and UAI 2013 and best paper award at ECSQARU 2013). For these reasons, the expert panel should be eminently able to judge the merits and impact of this research proposal.\\[8pt]
+{\bf Disciplines}\\[6pt]
+We need to choose (at most five) disciplines from some list.
 
-We also need to choose five disciplines from a list
+I would choose the following:\\[5pt]
+- Probability theory;\\
+- Knowlege representation and reasoning.
+
+There were also some other relevant disciplines in the list (Artificial intelligence, Differential equations and mathematical physics, Functional analysis, Financial mathematics, Mathematical modelling, Algorithms and computational mathematics, Statistics) but I think it would not be tactical to include them, since they are mostly mathematical, and we are applying to the computer science pannel.
 
 
 \vspace{5mm}
 
 \begin{shaded}\centering REFEREES \end{shaded}
 
+Damjan's suggestions (he will get contact details for those that we propose):
 
-Please list 10 potential referees below and provide contact details.
-The FWO administration will contact referees from this list in a random way. 
+Lev Utkin
 
-(For each of the referees, we need to provide the same info as for the supervisors (except the CV))
+Paolo Vicig
 
+Renato Pelessoni
+
+Andrea Wiencierz
+
+Marco Cattaneo
+
+Alessio Benavoli
+
+Fabio Cuzzolin
+
+
+{\bf\color{blue} Gert and I need to come up with some additional names}
+
+
+*** Please list 10 potential referees below and provide contact details.
+The FWO administration will contact referees from this list in a random way. ***
+
+*** For each of the referees, we need to provide the same administrative info as for the supervisors (see the supervisors section) ***
+
+{\color{Gray}
+These are the rules:
 
 Referees should be appointed at an university, research institution or research entity of another type of organization and at least at postdoctoral level.
 
@@ -169,17 +308,25 @@ The applicants are responsible for the eligibility of the proposed referees. Whe
 
 In case the applicant(s) doubts the eligibility of one or more of the proposed referees, he or she can also contact the FWO through his/her e-loket account before submitting the application. The questions concerning eligibility that reached the FWO before the application was submitted will be presented to the FWO referee commission of the appropriate scientific domain, consisting of all expert panels’ chairs of that domain. Five referee commissions are established, one for each domain: biological sciences, humanities, social sciences, medical sciences and science \& technology; for applications submitted to the Interdisciplinary Panel the referee commissions of the respective scientific domains will be consulted. In case co-authorship is detected in publications with ten or more authors, the FWO administration will consult the referee commission as well. In all the above cases, the referee commission will decide on the alleged eligibility of the proposed referees. When the referee commission decides negatively on the eligibility of a proposed referee in an application that has already been submitted, this application will be disqualified. When the referee commission answers negatively to a question concerning the eligibility of a proposed referee that reached the FWO before the application was submitted, the applicant will be asked to propose a new referee that does meet the eligibility criteria. 
 After the administrative check, the FWO will inform the applicant about the violations that were found. In case the alleged violations result from a factual error of the FWO administration, the FWO can be notified. 
-For the integral regulations on internal and external peer review, see: http://www.fwo.be/en/the-fwo/organisation/fwo-expertpanels/regulations-fwo–-internal-and-external-peer-review/.
+For the integral regulations on internal and external peer review, see: http://www.fwo.be/en/the-fwo/organisation/fwo-expertpanels/regulations-fwo–-internal-and-external-peer-review/.}
 
 \vspace{10pt}
 
 \begin{shaded}\centering EXTRA DATA \end{shaded}
 
 \textbf{Mention other funding, applied for elsewhere or already available. (Optional)}\\
-\textcolor{Gray}{???/3000}\\
+\textcolor{Gray}{0/3000}\\
 
-Should we mention the projects of Stavros and Alexander?
+% {\color{blue}\bf This part should only mention funding that is related to the same project proposal} 
 
+% I would suggest to leave it empty...
+
+% *** should we mention the projects of Stavros and Alexander? ***
+
+% @Damjan: do you have stuff that should be mentioned here?
+
+% I am a member of the research group: Social Sciences Methodology, Statistics and Informatics; 
+% Code	P5-0168 (B); Period	1.1.2015 - 31.12.2020; Head:	Ferligoj Anuška
 
 \vspace{7pt}
 
@@ -193,14 +340,36 @@ Should we mention the projects of Stavros and Alexander?
 \textit{Elaborate on the complementary expertise of the project partners and explain how the project parts are integrated and relevant for the scientific input from both sides. Explain how this project fits in the research activities of your research group and the foreign research group. If the project has already been initiated, please state the progression of your research.}\\
 \textcolor{Gray}{???/3000 characters}
 
-???
+{\color{blue}\bf DAMJAN WILL WRITE A FIRST DRAFT}
+
+*** some preliminary text, not ready yet... ***
+
+**
+The research will be carried out at University of Ghent and University of Ljubljana. 
+
+* Info on your group (below) 
 
 
+Damjan \v Skulj is an associate professor of Applied Mathematics at the University of Ljubljana. His research interest has been focused to the theory of imprecise probabilities. In the last few years he published several peer-reviewed articles on imprecise Markov chains in discrete time. His approach is mostly focused to the numerical and computational aspects. In 2015 he also proposed an initial analysis of computational problems related to imprecise Markov chains in continuous time. Within this project he will start a research group initially involving a new PhD student and prof. dr. Matjaž Omladič, who is an experienced researcher with expertise in many fields of mathematics including linear algebra, probability theory and statistics. 
+
+The work on imprecise continuous time Markov chains will be a follow up to a very successful work on the theory of discrete time imprecise Markov chains. A major part of this theory has been developed by the members of both groups. Yet they have approached the topic from partially different and complementary angles. The skills developed during the study of the discrete time models will be indispensable in the study of the processes in continuous time. 
+
+The focus of the Ghent group is more to place the theory into the context of more general stochastic processes, make connections with related theories of supermartingales and probability trees, and place it on solid mathematical grounds. The focus of the Ljubljana group is more numerically and computationally oriented. Both approaches, however, are interlinked and dependent on each other. Namely, the mission of the theory imprecise probabilities is to develop methods that will enable reasoning with partially known parameters, which in principle produces models of much greater complexity than their precise counterparts. It is therefore important that their interpretation remains within the spirit of the general theory of probability and at the same time the complexity must be reasonable in order to be useful and applicable in practice. 
 
 
-The Data Science Lab has world-leading expertise in the entire data value chain, from data acquisition, storage, representation and coding, to mining and learning from data, and finally valorization. The imprecise probability subunit conducts basic research on extensions of classical probability theory, uses these extensions to develop robust uncertainty models, and combines these models with data to perform reliable statistical inference and decision making.
+** I made perhaps a too sharp distinction of our approaches with intention to show complementarity  
 
-In the recent past, SMACS and the imprecise probability subunit of Data Science Lab (then part of the SYSTeMS research group) have  joined forces to incorporate imprecise probability in queueing theory and its applications. This was a.o. substantiated in an FWO-project, and is expected to lead to a first Ph.D.-thesis in 2016. That project focussed on discrete-time stochastic processes, while queueing studies frequently adopt continuous-time models. Incorporating imprecision in this type of models is a challenge, as described further in the proposal, and it is this challenge that we intend to tackle in this new project.
+*** I tried to have a paragraph dedicated to each part of the evaluation criteria
+
+**
+
+Part of this research will be carried out in the Imprecise Probabilities (IP) unit of the Data Science Lab at Ghent University's Faculty of Engineering and Architecture.
+The Data Science Lab has world-leading expertise in the entire data value chain, from data acquisition, storage, representation and coding, to mining and learning from data, and finally valorisation. 
+
+The IP unit conducts worlds-leading basic and applied research on imprecise probabilities---extensions of classical probability theory that allow for imprecision and indecision---uses these extensions to develop robust uncertainty models, and combines these models with data to perform reliable statistical inferences and decision making.
+It is led by Gert de Cooman, who is Full Professor in Uncertainty Modelling and Systems Science, and Honorary Visiting Professor at Durham University.
+It currently consists of two post-docs (Jasper De Bock and Erik Quaeghebeur) and four PhD students, who work in a wide range of areas in imprecise probabilities, such as credal networks, discrete-time imprecise Markov chains and queueing, and the foundations of statistical and probabilistic inference.  
+
 
 \textbf{Provide the national and international context of the project.}\\
 \textit{Mention research collaborations, larger projects, programmes and international networks in which your research can be situated.}\\
@@ -208,8 +377,23 @@ In the recent past, SMACS and the imprecise probability subunit of Data Science 
 
 ???
 
+
+The IP unit has very strong ties with other world-leading research groups on imprecise probabilities, at Carnegie Mellon University (US), IDSIA (Switzerland), Durham University (UK), Universidade de S\~ao Paulo (Brazil), IRIT (France), Ludwig-Maximilians-Universit\"at M\"unchen (Germany), Universidad de Oviedo and Universidad de Granada (Spain), and Universiteit Utrecht (The Netherlands).
+
+In the recent past, SMACS and the imprecise probability subunit of Data Science Lab (then part of the SYSTeMS research group) have  joined forces to incorporate imprecise probability in queueing theory and its applications. This was a.o. substantiated in an FWO-project, and is expected to lead to a first Ph.D.-thesis in 2016. That project focussed on discrete-time stochastic processes, while queueing studies frequently adopt continuous-time models. Incorporating imprecision in this type of models is a challenge, as described further in the proposal, and it is this challenge that we intend to tackle in this new project.
+
 \textbf{Describe the past cooperation between the project partners.}\\
 \textcolor{Gray}{???/1800 characters}
+
+The common interest in imprecise Markov chains resulted in a co-authorship between Damjan Škulj, a member of Ljubljana group, and Filip Hermans, a member of Ghent group, of the chapter Stochastic processes in the book Introduction to Imprecise Probabilities~\cite{augustin2013:itip}. The chapter introduces the theory of stochastic processes with the emphasis on the theory of discrete time imprecise Markov chains. 
+
+The other forms of cooperation were informal discussions and common membership in the programming committees of the series of ISIPTA conferences, where the results on the theory imprecise Markov chains were also presented. 
+
+
+
+Co-authorship . {\color{blue}\bf (DAMJAN)}
+
+
 
 
 
@@ -230,67 +414,145 @@ In the recent past, SMACS and the imprecise probability subunit of Data Science 
 
 \begin{shaded}\centering PROJECT OUTLINE \end{shaded}
 
+
 \textbf{Indicate the state of the art.}
 
 
-*** this is a part of the text of some previous proposal, which could serve as an example of the type of text we are looking for here ***
+{\color{blue}\bf GERT WILL WRITE A FIRST DRAFT}
 
-Lots of text on queueing theory used to be here...
+This project is concerned with imprecise Markov chains, which are robust generalisations of Markov chains that are based on the theory of imprecise probabilities. In this state of the art section, we briefly introduce Markov chains and imprecise probabilities, explain how they can be combined to obtain an imprecise Markov chain, and give an overview of recent advancements in this field.
 
-Basically, imprecise probability theory~\cite{augustin2013:itip,walley1991,troffaes2013:lp} is an extension of probability theory that allows for partial probability specifications.
-For example, whenever it is infeasible to reliably estimate the probability of some event, this theory allows for the use of a probability interval instead.
+\vspace{5pt}
+\emph{Markov chains}\\[5pt]
+A \emph{discrete-time} \emph{finite-state} \emph{Markov chain} is a special stochastic process. 
+It models the time evolution in discrete time steps of a system that can be in a finite number of states.
+It is \emph{stochastic} because the model is given in terms of probabilities, such as, for example, the probability to be in a certain state at a given time.
+It is a Markov chain because the probabilistic model satisfies a \emph{Markov condition}: the (so-called) transition probability to be in a certain state at the next time step only depends on the current state, and not on the past states, so the future is independent of the past, conditional on the present.
+The probabilistic time evolution of the state of such Markov chains is described by linear difference equations.
+In \emph{continuous-time Markov chains}, the time steps become infinitesimally small, and their time evolution is described by linear differential equations. 
+
+Both discrete and continuous-time Markov chains belong to the most powerful, and---due to their reasonable computational complexity---the most widely used probabilistic models in a very wide range of applications in engineering (filtering, control, queueing), AI (text and speech recognition), mathematical finance and bio-informatics, to name only a few domains.
+
+\vspace{5pt}
+\emph{Imprecise probabilities and the limitations of precise models}\\[5pt]
+Nevertheless, these Markov chains have limitations: we will focus here on two of them.
+The first is that the uncertainty about the state is described by (transition) probabilities: real numbers whose precision is almost always unwarranted in applications, because of the limited accuracy and reliability of statistical estimation methods, and the essentially limited numerical accuracy that computer simulations offer.
+The second limitation is related to the Markov condition: that the probabilistic model for the next state depends only on the current one, is quite a strong assumption to make. 
+It leads to a drastic decrease in computational complexity, and is therefore often made, but is typically hard to justify in practical applications.
+
+The justification that is commonly given for both of these simplifying assumptions in modelling contexts is that the simplification they entail is unlikely to have major implications for the conclusions that we draw from the models.
+However, this claim is hard to verify, and often unwarranted.
+As a brief look at the mathematics of these stochastic models will already show, there are many situations where (i) the conclusions of a Markov chain analysis depend heavily and crucially on the precise values of the transition probabilities, or where (ii) not making a Markov assumption leads to qualitatively very different results.
+
+Interestingly, in recent decades much progress has been made in extending the existing corpus of general probabilistic knowledge to deal with both types of limitations: the field of \emph{imprecise probabilities} \cite{walley1991,augustin2013:itip,troffaes2013:lp} has, amongst other things, developed well-justified, mathematically rigourous, as well as robust and efficient methods for dealing with both of them.
+Stated in very simple terms, an imprecise probability model is a probabilistic model that is partially specified.
+For example, whenever it is infeasible to reliably estimate the probability of some event, the theory imprecise probabilities allows for the use of a probability interval instead.
 Such partial specifications do not lead to a unique probability measure, but instead give rise to a set of compatible probability measures.
-These sets of probability measures are called credal sets, and they are the basic uncertainty models in imprecise probability theory.
-Lower and upper expectations, lower and upper probabilities, belief functions and possibility measures can all be regarded as special cases~\cite{walley2000}.
-This approach is particularly useful when information is scarce, expensive, vague, or conflicting, in which case a unique probability measure may be hard to identify. Imprecise probability theory then takes this additional uncertainty into account, and produces robust analyses and decisions.
+These sets of probability measures are called credal sets, and they are the basic uncertainty models in imprecise probability theory. 
+%This approach is particularly useful when information is scarce, expensive, vague, or conflicting, in which case a unique probability measure may be hard to identify. Imprecise probability theory then takes this additional uncertainty into account, and produces robust analyses and decisions.
+Rather remarkably, the current state of the art in the theory is able to perform the necessary robust calculations and derivations for all of the (infinite number of) precise probabilities in such a credal set, with a computational efficiency that is not much lower than---and often as low as---the one for the precise models; see for instance \cite{cooman2009,debock2014:estihmm,debock2015:thesis,cooman2008} for concrete examples that substantiate this claim.
 
-Despite the simplicity and elegance of the basic concept of imprecise probabilities, the resulting theory is extremely powerful.
-Indeed, credal sets are very general, and can be used to model various types of uncertainty, ranging from pure stochastic uncertainty (a single probability measure) to a complete lack of knowledge (the set of all probability measures), and everything in between.
-It should be stressed that imprecise probability theory is not just about taking a precise model and varying its parameters.
-Additionally, it can also drop the traditional simplifying assumptions that were mentioned before, such as independence and stationarity, and can predict the effects of dropping these assumptions on output variables~\cite{couso1999b,walley1991,cozman2000}.
+% *** explain how general IP is, and argue (extensively) why it is important from a practical point of view. ***
 
-However, as is to be expected, the generality and flexibility of this approach comes at a price.
-Inference in imprecise probability models tends to be computationally challenging, and it often requires high-dimensional non-linear optimisation problems to be solved.
-Although state of the art research on imprecise probability has focussed rather extensively on the development of efficient computational inference methods, this line of research is ongoing, and many types of inference remain intractable.
-Nevertheless, for the special case of discrete time imprecise stochastic processes, recent breakthroughs have led to the discovery of some powerful theoretical properties, which in turn have led to the development  of efficient (often linear or polynomial) algorithms~\cite{cooman2009,cooman2008}.
-Rather remarkably, these algorithms can easily deal with different types of model uncertainty, even for stochastic processes that drop the usual independence or stationarity assumptions.
+\vspace{5pt}
+\emph{A brief introduction to imprecise discrete-time Markov chains}\\[5pt]
+Applying the results and ideas developed in the field of imprecise probabilities has in particular led to interesting advances in \emph{discrete-time} finite-state Markov chains, resulting in a theory of so-called \emph{imprecise Markov chains} \cite{cooman2008,hermans2012,hartfiel1998,skulj2013,cooman2015:isipta:markov,cooman2015:markovergodic}.
+They correspond to a collection of stochastic processes that need not satisfy the Markov property.
+They are only `superficially Markov', in the sense that their \emph{sets} of transition probabilities satisfy a Markov condition, whereas the individual members of those sets need not.
+In other words, imprecise Markov chains are \emph{not} simply collections of precise Markov chains, but rather correspond to collections of general stochastic processes whose transition models belong to sets that satisfy a Markov condition.
+In this sense, they lead to much more robust and reliable inferences than their precise counterparts, and nevertheless still allow for very efficient and elegant computations, a combination that is clearly important in applications.
 
-It should therefore not be surprising that these algorithms can be used to perform robust queueing analyses. Indeed, the algorithm in Reference \cite{cooman2008} was essential to the results in Reference~\cite{2015Lopatatzidis}, where the authors considered a discrete-time queue of finite length with a single server and Bernoulli arrivals and departures, and robustified it in the following way.
-Instead of assuming that the probability of a Bernoulli arrival (or departure) is known exactly, they assumed that this parameter takes (unknown) values in some known interval. They also allowed this parameter to be non-stationary, and dropped the stochastic independence assumption by replacing it by weaker imprecise independence notions, such as repetition independence and epistemic irrelevance.
-Even with all these layers of robustness in place, it was still possible to efficiently perform queueing analyses with this model, and these analyses furthermore led to some surprising new insights. For example, in the precise case, it follows from ergodicity that the limiting distribution of the number of customers is equal to their time-averaged distribution. However, because ergodicity breaks down in the imprecise case~\cite{deCooman2015}, these two distributions are not equally robust: the analysis in Reference~\cite{2015Lopatatzidis} showed that dropping the independence assumption can result in substantial changes to the steady state state distribution, but that the effect on the time-averaged distribution is less profound.
+\vspace{5pt}
+\emph{Imprecise probability trees, game-theoretic probabilities and submartingales}\\[5pt]
+A crucial step that made these developments possible was the observation that general discrete-time stochastic processes can be described elegantly using probability trees: special graphs whose \emph{paths} from root to leaves represent possible time evolutions of the process, whose nodes (also called \emph{situations}) represent time evolutions up to a certain time step, and where each situation has a local probability model for what may happen at the next time step.
+These paths correspond to the elements of the sample space in the more conventional measure-theoretic approach.
+With such a tree there is associated a convex closed set of so-called martingales---all real processes with zero expected increase from one time step to the next---and a very important result by Ville \cite{ville1939,shafer2001} shows that all probabilistic properties of, and inferences about, the stochastic process are completely determined by this set of martingales.
 
-%This is a consequence of the fact that ergodicity does not necessarily hold for imprecise Markov chains with finite state sets, something which has been proven in \todo{\cite{deCooman2015} @Jasper: Of vertel ik hier onzin?}.
+Once we recognise this, going to imprecise stochastic processes becomes fairly straightforward, at least conceptually: the local models attached to the tree's nodes are now sets of probabilities, and all probabilistic inferences can be shown, through an appropriate extension of Ville's Theorem, to be completely characterised by the corresponding convex closed set of \emph{sub}martingales (real processes with non-negative expected increase under all precise probability models in these sets) \cite{cooman2007d,cooman2015:markovergodic,cooman2015:isipta:markov}.
 
-%\todo{Joris: het bovenstaande vind ik een beetje (te?) uitgebreid}
+*** some text to create a link with the next subsection ***
 
-Nevertheless, despite this initial success and the new insights that resulted from it, there is still an important mismatch between imprecise probability theory and queueing models.
-On the one hand, most of queueing theory is developed for continuous-time models: although synchronization in telecommunication networks has sparked a surge of analyses of discrete-time models from the nineties onwards, continuous-time models are still the standard.
-On the other hand, imprecise probability theory has advanced almost unanimously for discrete-time stochastic processes.
-Imprecise continuous-time models have been explored only very recently \cite{Skulj2015,Troffaes+GSB-ISIPTA15p}, and many basic theoretical and computational problems have yet to be solved.
+\emph{State of the art on imprecise discrete-time Markov chains}
+
+*** Discuss all the different things that have already been successfully studied in some detail (especially the things that we intend to generalize to continuous time in this project) ***
+
+In its initial phase there have been several approaches proposed to the theory of Markov chains with imprecise (or uncertain parameters). They have been first analysed by Hartfiel~\cite{hart:98} under the name Markov set chains, where the focus was on the models where lower and upper probabilities are specified for the transition probabilities between individual states, and partially also to the models with general (not-necessarily) convex sets of transition operators. Concepts such as importance convexity of sets of distributions over states, separately specified rows and coefficients of ergodicity have already been recognized by Hartfiel. Apparently unaware of Hartfiel's work Kozine and Utkin~\cite{utkin:02} have proposed an approach that was formally linked with the theory of interval probabilities, however they applied a different interpretation. That is, instead of allowing variable transition probability operators, that are assumed in most of the other models, they assumed a precise but unknown model. This resulted in substantially different models. 
+
+A formal connection between Markov chains and the models of imprecise probabilities stared with the work of de Cooman et. al~\cite{cooman2008} where rigorous mathematical framework for the theory of Markov chains was proposed based on the theory of coherent upper previsions. Mostly independently, similar ideas have been applied by Škulj~\cite{skulj:09}, where the focus is more on the models of interval probabilities and general convex sets of probabilities. Both approaches focus on basic mechanisms of calculating distributions of Markov chains whose uncertainty in parameters is modelled via imprecise probabilities and proving convergence. Concerning the calculation of distributions, the main difference is that in \cite{cooman2008} the backwards induction approach is used instead of forward calculations done with sets of distributions used in \cite{skulj:09} and in most of the earlier approaches. 
+
+
+Concepts of generalised transition operators and ideas used in the analysis of the limit behaviour of imprecise Markov chains described in \cite{cooman2008} have become the basis for most of the consequent work on the theory of imprecise Markov chains. In the core of the theory is the introduction of imprecise transition operators. They are based on the concept of upper previsions and instead of probability mass vectors they act on gambles. This allows the analysis to be reduced to the study of non-linear operators instead of convex sets of probability distribution vectors, which hindered efficient analysis in some earlier approaches. Apart from this, the transition operators are no more limited to one step transitions, but rather the focus is on joint models corresponding to multiple steps. This, in particular opens the way to the analysis of more general random processes~\cite{cooman2015:markovergodic}.
+
+** Here, a relation to the general theory of imprecise random processes can be mentioned. 
+** DS: I wrote most about my work and as much as I knew about yours, so you should look and add additional information where needed. 
+
+In particular, limit behaviour of imprecise Markov chains has been studied extensively. Unique convergence has been studied in \cite{cooman2008, cooman2010} via accessibility relations based on upper transition probabilities, resulting in necessary and sufficient conditions for unique convergence based on the structure of transition operators.
+In \cite{skulj2013} the study of unique convergence has been made using the approach with coefficients of ergodicity, that additionally to providing conditions for convergence also measure its rate. Along the way to finding an imprecise version of coefficients of ergodicity, also metric properties of imprecise operators have been studied. A notable result is a connection made between the Hausdorff metric between convex sets of probability measures and the distance between the corresponding expectation operators. 
+
+When convergence is not unique, imprecise Markov chains behave substantially different than the precise models. In particular the analysis of the accessibility between states becomes much more complicated, and so does the analysis of the structure of invariant distributions. These problems were studied in \cite{skulj:13b}, providing a general classification of the invariant distributions of imprecise Markov chains and convergence for the case where the invariant distributions are not unique. Another type of convergence is the so-called conditional convergence for Markov chains with absorbing states and certain absorption. Although in the long term the chain will be absorbed in the absorbing state, under some regularity assumptions a long term conditional distribution with respect to the event that the chain has not yet been absorbed converges uniquely to a conditional stationary distribution. In the settings of imprecise Markov chains the problem was studied by Crossman and Škulj in \cite{Crossman:2010}, where the existence of a unique conditional distribution has been proved under an assumption of regularity. 
+
+The sensitivity of the distributions of imprecise Markov chains on the parameters has been studied recently by Škulj in \cite{skulj:2016b}, where coefficients of ergodicity have been used to measure the sensitivity of imprecise Markov chains for perturbations. 
+
+The work on more general questions related to imprecise Markov chains, such as the expected time to absorption, expected return times, and other general stopping times, or probabilities of absorption, hitting probabilities, has been initiated in \cite{troffaes:2013, cooman2015:markovergodic}, although, the complete theory is still under development. 
+
+Another important question in the theory of Markov chains is time reversal, and the theory of reversible Markov chains. These concepts rely on certain operations on transition and stationary distributions which are hard to perform under imprecision. Although a complete description of reversible processes is not yet possible, a successful attempt has been made by Škulj~\cite{skulj:16} to study a special family of reversible imprecise Markov chains that are obtained as random walks on weighted graphs. 
+
+
+\emph{State of the art on imprecise continuous-time Markov chains}
+
+*** Discuss what has been done already and explain that most problems are still open. ***
+
+Continuous time theory of imprecise Markov chains is still at its beginning. An attempt to modelling imprecision in continuous time Markov was made by Škulj in \cite{skulj2015:continuous:bounds}, where the ideas from the discrete time theory have been used to define a set of transition rates and the corresponding upper and lower bound operators. The Kolmogorov's backward equation was then studied where a precise transition rate matrix was replaced by the so defined imprecise one. Thus a generalized differential equation was obtained and it was proved that its maximal and solutions exist and that they contain every possible solution of a generalised continuous time imprecise Markov chain. But the boundary solutions can only be found numerically using approximations. Although, an efficient method is proposed, the errors grow exponentially in time, which hinders its use to finding long term or limit distributions.
+
+The theory of imprecise continuous time Markov chains is related to continuous time Markov decision processes and controlled Markov chains. They share the basic idea of multiple possible transition scenarios, but the implementation does not use the models of imprecise probabilities. 
+
+
+(perhaps it is a good idea to also mention related fields, such as continuous-time Markov decision processes, continuous-time controlled Markov chains, interval continuous-time Markov chains, ... )
+
+{\color{Gray}
+Some old text on the topic that could be reused and/or rephrased:
+
+The discussion above, as well as the bulk of the literature on imprecise Markov chains, deals mainly with their discrete-time variant: very little is known about how to deal with robustness and imprecision in continuous-time Markov chains. 
+We are only aware of a recent initial analysis by \v{S}kulj \cite{skulj2015:continuous:bounds}.
+
+Imprecise probability theory has advanced almost unanimously for discrete-time stochastic processes.
+Imprecise continuous-time models have been explored only very recently \cite{skulj2015:continuous:bounds,Troffaes+GSB-ISIPTA15p}, and many basic theoretical and computational problems have yet to be solved.
+}
 
 \vspace{3mm}
 
 \textbf{Describe the objectives of the research.}\\
 \textit{Describe the envisaged research and the research hypothesis, why it is important to the field, what impact it could have, whether and how it is specifically unconventional and challenging.}
 
-*** this is a part of the text of some previous proposal, which could serve as an example of the type of text we are looking for here ***
 
-The main objective of the proposed project is to \emph{use imprecise probabilities to develop a general framework for robust continuous-time queueing models}, in which the  imprecision of the input stochastic processes and their parameters is not ignored, but instead explicitly included. This framework will be able to predict the effect of this imprecision on relevant performance measures, for example by providing bounds on their expected value, and can then be used to make safer design choices that are robust against modelling errors.
+The main objective of the proposed doctoral research project is to make significant progress in the development of the theory of imprecise \emph{continuous-time} \emph{finite-state} Markov chains, using recent developments in imprecise probabilities \cite{augustin2013:itip,troffaes2013:lp} and imprecise probability trees \cite{shafer2001,cooman2007d}, and building on the success of what has already been achieved in the discrete-time case \cite{cooman2008,hermans2012,skulj2013,cooman2015:markovergodic}. In particular, we would like to develop the following three lines of research; more detailed information is provided in the Methodology section below.
 
-%The inferences of these models are a set of output distributions rather than one completely specified distribution and are therefore robust against imprecision in the input distributions.
+\vspace{6pt}
+\begin{itemize}
+\item[\tiny$\blacksquare$]
+Develop a rigorous martingale-theoretic and measure-theoretic definition for the joint model of a continuous-time imprecise Markov chains, and use this model to generalize a number of basic theoretical properties of precise continuous-time Markov chains.
+%thereby moving beyond the limited ad-hoc definition that is currently adopted.
+\item[\tiny$\blacksquare$]
+Develop computational methods for imprecise continuous-time Markov chains and conduct a theoretical analysis of the efficiency of these methods, with a particular focus on aspects such as convergence speed (coefficients of ergodicity) and stability (perturbation analysis).
+\item[\tiny$\blacksquare$]
+Study and characterize the limit behaviour of imprecise continuous-time Markov chains: ``Under which conditions will they converge to a stationary limit distribution?'', ``What properties does such a limit distribution have?'' and ``How can we efficiently compute it?''. 
+\end{itemize}
+\vspace{6pt}
 
-Key in the success of this proposal will be the development of \emph{efficient algorithms} that can, for example, compute the aforementioned bounds. To this end, imprecise probability for \emph{continuous-time} stochastic processes will have to be developed. This will be a challenging line of research, because the topic is almost completely unexplored: to the best of our knowledge, References~\cite{Troffaes+GSB-ISIPTA15p} and~\cite{Skulj2015} are the only exceptions. However, given our experience in designing efficient algorithms for imprecise \emph{discrete-time} stochastic processes~\cite{cooman2008} and applying them to discrete-time queueing theory~\cite{2015Lopatatzidis}, we are convinced that we have the necessary background to successfully tackle similar problems in continuous-time.
+Over the past decades, similar lines of research have received plenty of attention for \emph{precise} continuous-time Markov chains, and this has resulted in their successful application in various domains, including control engineering, queueing, artificial intelligence, bio-informatics and survival analysis.
+However, for \emph{imprecise} continuous-time Markov chains, these lines of research are almost completely unexplored.
+%Therefore, we believe that this research could lead to a breakthrough in applied imprecise probability: if successful, our results will provide a theoretical basis that allows for the application of imprecise continuous-time Markov chains in the very same domains where precise continuous-time Markov chains are currently being used.
+Our research hypothesis is that by developing these three lines of research, it would become technically feasible to successfully apply imprecise continuous-time Markov chains to the same problems that are currently solved with their precise versions.
 
-If successful, this research has the potential to disrupt the queueing theory paradigm.
-Indeed, the Achilles' heel of using (predominantly continuous-time) queueing models for decision support, prediction and dimensioning in practical applications is the fact that usually, these models and their calibration are uncertain themselves.
-In an attempt to deal with this issue, the goal of queueing theory in the last hundred years has been to analyse increasingly generalised, complicated and intricate queueing models.
-Although successful on its own, this approach often inspires overconfidence in its results, and gaining confidence in the input distributions is not treated with the same attention or is neglected altogether.
-Once numbers are produced, the dependency on the input is often forgotten all too easily.
-Instead, we plan to develop a (continuous-time) queueing theory that takes this dependency into account. In this theory, it is explicitly acknowledged that we do not know the input precisely, and, as a result, the resulting output and decisions are robust with respect to this imprecision. Furthermore, calibration of the input will be much easier, and we are convinced that efficient algorithms are in the picture as well.
+The practical advantage of such an imprecise approach would be that it explicitly acknowledges that we may not know the relevant probabilistic models exactly, and that, as a result, our inferences must be robust against such model uncertainty. 
+The framework of results and inference methods to be developed will be able to predict the effect of this model uncertainty on specific interesting functions of state variables, for example by providing lower and upper bounds on their expected values. 
+The results of such inferences can then be used in various applications and situations, for instance to make safer design choices that are much more robust against modelling errors.
 
 The proposed research is unconventional from the perspective of both domains that intersect in this project.
-First of all, although some attempts at robustifying queueing theory have already been undertaken (see the state-of-the-art section), it is still unconventional in queueing theory to drift away from precise probabilities. Even more unconventional is that the described approach also breaks with traditional assumptions such as stochastic independence, the Markov property and so on, which also results in infringements of ergodicity in cases where ergodicity comes natural in precise probability.
-From an imprecise probability perspective, the models are unconventional because time is taken to be continuous, whereas past research on imprecise stochastic processes has focussed almost unanimously on discrete-time problems.
+First of all, from the point of view of Markov chain theory, our approach is unconventional because it breaks with two traditional assumptions: the Markov condition is replaced by a weaker version, and the probabilities that make up the model do not have to be specified exactly. Secondly, from an imprecise probability perspective, this project is unconventional because time is taken to be continuous, whereas past research on imprecise stochastic processes has focussed almost unanimously on discrete-time problems.
+
+Due to this unconventional nature of the proposed research, and because the topic is largely unexplored, this project will clearly be challenging. 
+However, given the extensive experience of both partners in studying various aspects of imprecise \emph{discrete-time} stochastic processes~\cite{cooman2007d,cooman2008,hermans2012,cooman2015:markovergodic,cooman2015:isipta:markov}, we are convinced that we have the necessary background to successfully tackle similar research problems in continuous time.
 
 
 \vspace{7pt}
@@ -301,43 +563,257 @@ Describe the different envisaged steps in your research, including intermediate 
 Show where the proposed methodology is according to the state of the art and where it is novel.
 Enclose risks that might endanger reaching project objectives and the contingency plans to be put in place should risk occur.}
 
+*** MORE REFERENCES NEED TO BE ADDED IN THIS SECTION ***
 
-*** this is a part of the text of some previous proposal, which could serve as an example of the type of text we are looking for here ***
+As explained in the objectives section, we intend to pursue three lines of research, each of which has been very successful for precise continuous-time Markov chains, but none of which has so far made significant progress in the imprecise case; a detailed plan for all of them is outlined below. Each of these three lines of research will initially be carried out by a separate full time PhD student, under the close supervision of the (co-)supervisors and a part-time senior researcher. As time and research progresses, we expect these lines of research to mutually benefit from each other, leading to intensive collaborations between the respective students and their supervisors. Concrete topics of collaboration are discussed within the following detailed plans.
 
-The first step in this project will be to \emph{develop robust versions of the basic building blocks of queueing models, that is, imprecise arrival and service-time processes} {\bf(Work Package 1)}.
-Initially, given their popularity and importance, we will focus on developing imprecise versions of Poisson processes and exponential distributions, with increasing degrees of robustness.
-A first level of robustness will be added by allowing the parameter of Poisson processes and exponential distributions to vary within intervals.
-Next, additional layers of robustness will be added by allowing this parameter to be time-dependent and eventually even history-dependent.
-We intend to achieve this in a very rigorous way, by dropping the independence axioms that are traditionally used to define Poisson processes and exponential distributions, and replacing them with increasingly weaker axioms.
-Each additional layer of robustness will result in a more flexible and realistic uncertainty model, at the cost of increased theoretical and computational complexity.
-However, given that the Data Science Lab has already successfully tackled this kind of issues for discrete-time robust stochastic processes~\cite{hermansITIP}, we expect to be able to obtain similar successes in this continuous-time case. In a later stage, we will try to robustify other continuous-time distributions and arrival processes, such as Erlang distributions and Markovian arrival processes.
 
-The second step in this project consists in using the imprecise arrival and service-time processes of the first step to \emph{develop robust queueing models} {\bf(Work Package 2)}.
-Basically, the idea is to consider existing queueing models, and to replace their arrival and service-time processes by our imprecise versions.
-We intend to start by developing a robust version of the $M/M/1$ queue, where customers arrive according to an imprecise Poisson process, one server serves the waiting customers in an FCFS order, and service times have an imprecise exponential distribution.
-In the precise case, the number of customers in the queue can then be described by a continuous-time birth-death chain.
-Similarly, we would like to show that in the imprecise case, the number of customers can be described by a continuous-time imprecise birth-death chain, which is a simple type of continuous-time imprecise Markov chain~\cite{Skulj2015}.
-Similarly, for more complex queueing models, we intend to show that the number of customers can be described by more complex imprecise Markov chains.
 
-Clearly, step two will require us to \emph{establish a rigorous theoretical basis for continuous-time imprecise Markov chains}, and we regard this as a third part of this research {\bf(Work Package 3)}, which we intend to initiate before---and then continue in parallel with---the second step. Some preliminary research has already been conducted on this topic~\cite{Skulj2015}, including some recent unpublished work by the imprecise probability subunit of the Data Science Lab, but it is fair to say that there are still many unsolved basic theoretical and computational problems left. For example, past research on imprecise continous-time Markov chains only considered finite state spaces, whereas basic queueing theory often considers countably many states. %\todo{*** what do you mean by that? ***} *** references ***
+\vspace{5pt}
+\emph{Joint models and basic properties} {\bf (Research Line 1)}.
+\vspace{3pt}
 
-The three steps that were discussed above are purely theoretical, and consist of developing a formal framework in which to study imprecise arrival and service-time processes, imprecise Markov chains, and ways of combining these to construct robust queueing models.
-In order to be able to use these models in practice, this formal framework will need to be complemented with efficient computational methods.
-In particular, it will be necessary to develop methods that are able to provide us with exact bounds on performance measures---such as the average occupancy or delay---that reflect the extent to which the imprecision in the input affects the output.
-Indeed, once we have these bounds, they can then be used to make robust a priori design choices while dimensioning a queueing system, such as determining the needed buffer space or the desired number of servers, in order to achieve the desired performance.
-Similarly, for systems whose number of servers can vary over time, these bounds can be used to design robust dynamic server policies.
-Given the importance of these bounds, a fourth step in this project will be to \emph{extend the existing computational methods for continuous-time imprecise Markov chains}~\cite{Skulj2015,Troffaes+GSB-ISIPTA15p}, and to \emph{use these methods to efficiently compute exact bounds on performance measures} {\bf(Work Package 4)}.
+A first important goal of this project is to develop a rigorous martingale-theoretic and measure-theoretic definition for the joint model of a continuous-time imprecise Markov chains, and to use this model to generalize a number of basic theoretical properties of precise continuous-time Markov chains. %This research will be conducted by a single student, under the close supervision of the IP unit of the Data Science Lab, and can be divided into the following six work packages.
+This research can be divided into the following three work packages.
 
-Although we expect to reach the majority of the above goals, it might of course happen that we do not. For example, some types of performance measures might turn out to be inherently intractable to compute with, or we might come across stochastic processes for which adding three layers of robustness (allowing their parameters to be interval-valued, time- and history dependent) results in a model that is simply too complex to work with. However, even if we were to come across such problems, this will not endanger the global aim of the first part of this project, which is to develop robust continuous-time queueing models. Indeed, there are various types of stochastic processes, increasingly complex ways of adding robustness, and many performance measures of interest. Adding a modest amount of robustness to simple queueing models will definitely be possible, and this alone suffices to continue with the rest of this project. However, of course, our intention is to go much further: ideally, we would like to develop a general framework for working with robust continuous-time queueing models.
-%In any case, regardless on how general our study ends up being, we definitely expect to be able to develop robust continuous-time queueing models, and this will allow us to move to a next step.
+\vspace{6pt}
+\begin{itemize}
+% \item[\tiny$\blacksquare$]
+% The first step in this line of research will be for the student to \emph{study the relevant existing literature on imprecise probabilities and imprecise stochastic processes} as described above, and to familiarise herself thoroughly with measure-theoretic and martingale-theoretic approaches to probability {\bf(Work Package 1a)}.
+\item[\tiny$\blacksquare$]
+The first step of this line of research will consist in \emph{investigating how to define an imprecise probability tree, and in particular an imprecise Markov chain, in continuous time}: what are the possible paths and nodes, how can we define local imprecise probability models attached to these nodes, and how do we formulate a Markov condition for them?
+In addition, it must be investigated how to define the submartingales associated with such a continuous-time imprecise probability tree, and whether and how this definition simplifies when we impose the Markov condition {\bf(Work Package~1a)}.
+To achieve this, we can draw inspiration from earlier game-theoretic probability work done by Volodya Vovk in characterising the (precise) probability tree associated with continuous-time Brownian motion \cite{vovk2008:brownian,vovk2012:emergence:of:probability}, which is a special case of a Markov chain.% with fully independent local models.
+%Indeed, much of the this line of research can be seen to consist in generalising and extending his ideas from Brownian motion to Markov chains.
+%Therefore, the fact that solid and very interesting results can be obtained for Brownian motion---which is a special case of a Markov chain with fully independent local models---strongly indicates that the present line of research is indeed feasible, though not trivial.
 
-As should have become clear from the explanation above, our proposed research does not work towards a specific application, neither does it try to build an ad hoc model for some specific problem.
-Instead, our aim is to build a general framework for robust continuous-time queueing theory.
-Nevertheless, if we succeed in developing such a general framework, then of course, it can be used to study and solve a variety of problems, in different types of queueing applications. In order to demonstrate this, we intend to \emph{use our framework to analyse one or two specific queueing applications} {\bf(Work Package 5)}.
-Our choice of applications will depend on the level of complexity that our framework is able to deal with, but since robustness is an essential feature of our approach, we intend to focus on problems where this feature is important, that is, applications where the exact values of the parameters of the model are uncertain (e.g. telecommunication) and/or non-stationary (e.g. call centres \cite{Defraeye20164}).
+\item[\tiny$\blacksquare$]
+In a second step, we intend to use the results of the first step to obtain an expression for the joint probability model---a so-called lower expectation operator on the sample space of possible paths---of an imprecise continuous-time Markov chain, amenable to further exploration {\bf(Work Package 1b)}.
+We will also investigate whether, and how, this lower expectation operator can be expressed as a lower envelope of precise expectation operators, each associated with a more traditional, measure-theoretic stochastic process.
+%It may also be interesting, if rapid progress can be made and time allows it, to find out whether---as in the discrete-time case \cite{cooman2015:isipta:markov,cooman2015:markovergodic}---such an expression for the joint will allow for a formulation of ergodic theorems for continuous-time imprecise Markov chains.
 
-The purpose of this applied side of the project is only to test and validate the usefulness of our theory. Therefore, tackling this applied part will not require us to learn imprecise stochastic processes from data (e.g.\ Internet traces). For the purposes of this project, we can simply start from precise stochastic processes---learnt by means of existing methods, that is, by proposing a model that is deemed adequate and then applying estimation theory (see e.g.\ \cite{Breuer2002}) to estimate its parameters---and can then add increasing amounts of imprecision to these precise stochastic processes in order to study the robustness of the resulting outputs. %The initial precise model can then be learnt by means of existing methods, that is, by proposing a model that is deemed adequate and then applying estimation theory (see e.g.\ \cite{Breuer2002}) to estimate its parameters.
-However, in a later phase, it would of course be better to \emph{develop methods for learning imprecise continuous-time stochastic processes directly from data} {\bf(Work Package 6)}. At this point, we envision that this last topic will only be marginally treated in the project. However, if necessary, it does provide us with a contingency plan that is of independent interest.
+\item[\tiny$\blacksquare$]
+The final step of this line of research consists in studying the mathematical properties of the developed continuous-time imprecise Markov model {\bf(Work Package 1c)}.
+As a first important special case, we intend to check whether the model allows for a derivation from first principles of a non-linear variant of the Chapman--Kolmogorov equations, similar to what \v{S}kulj \cite{skulj2015:continuous:bounds} found using more {\itshape ad hoc} arguments.
+The fact that something similar is possible---and fairly straightforward---in the discrete-time case \cite{cooman2008}, should serve as an indication that this is indeed feasible. A second important special case will be to define stopping times, and to study their basic properties.\vspace{8pt}
+\end{itemize}
+
+Since the Chapman-Kolmogorov equations and stopping times lie at the basis of many computational methods for (precise) continuous-time Markov chains, we expect Work Package~1c to yield results that are useful to advance the second---computational---line of research that we are about to introduce (especially Work Package~2b). In order to take advantage of this overlap, we will provide the respective PhD students with the opportunity to collaborate on these topics.
+
+
+\vspace{8pt}
+
+
+\emph{Computational methods} {\bf (Research Line 2)}.
+\vspace{3pt}
+
+While the theory of precise Markov chains often relies heavily on linear algebra, this is no longer true for imprecise Markov chains, for which one has to resort to linear programming techniques. Consequently, in the vast majority of cases, solutions have to be obtained in numerical form.
+Computational methods are therefore an important aspect that has to be developed along with theoretical concepts. 
+The second general goal of this project is therefore to develop and improve numerical methods. This line of research can be divided into the following four work packages.
+
+
+
+
+%This is especially true for the continuous time case, because in principle we would have infinite number of time steps where a linear programming problems would have to be solved. 
+%Instead of that we have to do some kind of discretization. 
+%But this approach generates errors, that have to be managed. 
+%Moreover, the existing methods capable of providing bounds of distributions at given finite time points~\cite{skulj2015} fail when it comes to infinite time intervals. 
+%Actually, they start behaving poorly when the time intervals become larger. 
+%The reason is that they are based on the theory of differential equations whose bounds grow exponentially in time.
+
+
+
+
+\vspace{6pt}
+\begin{itemize}
+\item[\tiny$\blacksquare$]
+The first step in this line of research will be to define and compute coefficients of ergodicity (and possibly also other measures of contraction) for imprecise continuous-time Markov chains {\bf(Work Package 2a)}. By analogy with the discrete-time case, we expect that it will not be possible to evaluate the theoretical definitions directly, but that indirect computational methods will have to be developed. In order to do that, we will need to be able to efficiently compute distances between coherent lower or upper previsions that are only partially specified. Known numerical examples suggest that this problem is challenging but solvable. %To solve this problem we will use methods of convex analysis and the theory of perturbations of linear programming problems. 
+\item[\tiny$\blacksquare$]  
+The next task {\bf(Work Package 2b)} is to develop methods for calculating tight bounds on expected values of functions of the states of an imprecise Markov chain. At first, we intend to extend existing methods for functions that depend on the state at a single time point in the future~\cite{skulj2015:continuous:bounds}, which fail when the time interval grows large. In order to overcome this difficulty, we intend to exploit the contracting nature of Markov transition operators, using the coefficients of ergodicity of Work Package 2a. Later on, we will also try and compute expectations of more general functions, including important stopping times---such as the expected time to absorption and expected return times---and probabilities of general events---such as absorption probabilities.
+
+\item[\tiny$\blacksquare$] 
+The third task {\bf(Work Package 2c)} will be error estimation. 
+Regardless of the particular method that is used, numerical errors seem to be inevitable in continuous time models, where only a finite number of optimization steps are practically feasible, whereas in theory, optimization would actually be needed in every time point. 
+This gives rise to numerical errors, which are at every step transferred to the next steps as perturbations. 
+Existing error estimates work well for short time intervals, but for larger time intervals, as has been observed experimentally for simple problems, they significantly overestimate the errors that are made.
+
+\item[\tiny$\blacksquare$] 
+An important part of the above error estimation will be perturbation analysis, which is also of independent interest and will therefore be explored as a separate research task {\bf(Work Package 2d)}. 
+We will analyse how perturbations of its parameters affect the distance between an imprecise continuous-time Markov chain and its perturbed version.
+Such a perturbation analysis has previously been successfully applied to imprecise discrete-time Markov chains; we expect it to be equally successful in the continuous-time case.\vspace{8pt}
+\end{itemize}
+
+%%Develop computational methods for imprecise continuous-time Markov chains and conduct a theoretical analysis of the efficiency of these methods, with a particular focus on aspects such as convergence speed (coefficients of ergodicity) and stability (perturbation analysis).
+%
+%(feel free to change the order of the sub-workpackages as you like...)
+%
+%{\bf (Work Package 2a)}: coefficients of ergodicity (and perhaps other speeds of convergence)
+%
+%*** add text ***
+%
+%*** ergodicity has been characterised in Jasper's paper, but we don't know yet the speed of convergence... ***
+%
+%{\bf (Work Package 2b)}: computing lower expectations on a single time point, conditional on initial state, for large values of $t$ (for which current methods are now still exponential)
+%
+%*** add text ***
+%
+%{\color{Gray}
+%old text that may be useful:
+%
+%The steps discussed above are purely theoretical, and consist of developing a formal framework in which to study continuous-time imprecise Markov chains.
+%In order to be able to use these models in practice, this formal framework will need to be complemented with efficient computational methods.
+%Step five therefore consists in developing efficient algorithms for calculating lower and upper expectation bounds in a number of interesting and useful special cases
+%}
+%
+%
+%analysis of the limit behaviour of imprecise continuous time Markov processes
+%
+%
+%
+%{\bf (Work Package 2c)}: perturbation analysis study
+%
+%*** add text ***
+%
+%\emph{The dependence of the imprecise continuous time Markov chains on the parameters.} 
+%
+%{\bf (Work Package 2d)}: distances between partially specified lower expectations and how they can be used for part a,b and c.
+%
+%*** add text ***
+%
+%*** Here I mean the problem of calculating the distances between the natural extensions of lower previsions, based on the differences obtained on their domains. That is what is $\max_{0\le f \le 1} |\underline E(f)-\underline E'(f)|$ if $ |\underline E(h)-\underline E'(h)|$ is given for every $h \in \mathcal H$. 
+% 
+% Another related problem is what is the maximal possible distance between two coherent lower previsions that coincide on a given set of gambles. 
+% 
+% The above results are needed if we want to calculate coefficients of ergodicity for $\overline T^n$ or $T_t$ in continuous time. 
+%
+% An indispensable tool for evaluating convergence in terms of how close are the results to the true values is the metric structure of the imprecise probability models. In this area a big gap exists between the theory and practice. We will reduce this gap by providing efficient methods for calculating the distances between imprecise probability models. The models of imprecise probabilities are usually evaluated as solutions of linear programming problems or, especially in the theory of imprecise Markov chains as sequences of several linear programming problems. Therefore a lot of computational effort is needed to obtain values of parameters, and consequently there is usually only a limited numbers of parameters at disposal. We will therefore look for the methods that will enable estimating the distances between imprecise probability models based on their partial identification. To solve this problem we will use methods of convex analysis and the theory of perturbations of linear programming problems. 
+
+*** Discuss overlap with previous and next line of research ***
+
+\vspace{8pt}
+\emph{Limit behaviour and stationary distributions} {\bf (Research Line 3)}.
+%\emph{Limit behaviour} {\bf (Research Line 3)}.
+\vspace{3pt}
+
+Limit behaviour is one of the most crucial topics in the theory of Markov chains, and if a unique stationary distribution exists, then it is often the central object of interest. In the precise case, linear algebra provides powerful tools for the analysis of limit behaviour, and in many cases, the stationary distribution can be computed directly, by solving a system of equations. Unfortunately, this is no longer true for imprecise Markov chains. For imprecise discrete-time Markov chains, alternative methods have been developed *** REFS ***, but in continuous time, only very little is known so far *** REFS ***. Therefore, the third main goal of this project is to study and characterize the limit behaviour of imprecise continuous-time Markov chains. This line of research can be divided into the following three work packages.
+
+
+\vspace{6pt}
+\begin{itemize}
+\item[\tiny$\blacksquare$]
+The first task in this line of research will be to find out under which conditions an imprecise continuous-time Markov chain converges to a limit distribution {\bf (Work Package 3a)}. In cases where such a limit distribution exists, we will also characterise the conditions under which it depends on the initial state of the chain and the conditions under which it is stationary. In discrete time, such a study has already been conducted successfully *** REFS ***. In continuous time however, we are only aware of some partial answers *** REFS ***. 
+
+\item[\tiny$\blacksquare$]
+{\bf (Work Package 3b)}: can we compute the limit distribution directly? or indirectly but reasonably efficient?
+
+Find direct methods to calculate long term distributions for uniquely convergent chains. 
+
+
+Our first task will be to find robust methods for the analysis of convergence and finding the limit distributions. 
+As it seems very unlikely that this would be possible to be done analytically, we will rely on some kinds of numerical methods, which even in the case of a very optimistic scenario will most likely be computationally intensive.
+\item[\tiny$\blacksquare$]
+{\bf (Work Package 3c)}: Classification of the states and stationary distributions
+%The second task is 
+
+Within {\bf (Work Package 3c)} we will analyse the structure of the stationary and limit distributions. The nature of imprecise models allows a richer range of classes of states and transitions between them than in the precise case. We will investigate the induced accessibility relations and their influence on convergence, especially when it is not unique. We will also characterize and classify the invariant distributions. For the starting point we will extend the methodology from \cite{skulj:13b}, where a partial classification of invariant sets for the discrete time imprecise Markov chains was proposed, to the continuous time models. 
+
+\vspace{8pt}
+\end{itemize}
+
+%\vspace{5pt}
+\emph{Contingency plans} {\bf (Work Packages 4 \& 5)} 
+\vspace{3pt}
+
+*** Unforseen circumstances, risks and contingency plans ***
+
+Although we expect to finish each of the work packages that we have just discussed, it might of course happen that we run into some problems. For example, some computations might be inherently intractable, or there might be some theoretical questions that we are unable to solve. However, even if we were to come across such problems, this will not endanger the global aim of this project, which is to make significant progress in the development of the theory of continuous-time Markov chains. Indeed, ...
+
+
+
+At this point, we envision that this last topic will only be marginally treated in the project. However, if necessary, it does provide us with a contingency plan that is of independent interest.
+
+
+and that we additionally consider time reversibility and applications, as optional topics that stretch over (and require) all three lines of research, which serve as backup plans and/or extra toppics if time permits.
+
+%\vspace{5pt}
+\emph{Time reversibility} {\bf (Work Package 4)} 
+%\vspace{3pt}
+Time reversal is an important concept in the theory of stochastic processes and has not yet been systematically studied under the framework of imprecision, with the exception of \cite{skulj:16}. A systematic analysis of time reversed processes and reversible Markov chains will therefore be conducted. The first task is a formal approach to time reversal for processed based on imprecise probabilities. This is a theoretically challenging task, since the concept applies techniques, such as conditioning and Bayes rule, whose applications to imprecise probability models substantially differ from their use in the classical models. We will examine the possibilities to model time reversal in terms of the models of imprecise probabilities and establish the relation between continuous random walks on weighted graphs, extending the methodology used in  \cite{skulj:16} for the discrete time case. A special emphasis will be on the computational issues. 
+
+
+%The work will be divided into the following ??? work packages.
+%
+%\vspace{6pt}
+%\begin{itemize}
+%	\item[\tiny$\blacksquare$] 
+%	Within  {\bf(Work Package 4a)} conceptual properties of time reversal will be investigated. We will answer the following questions. Is a time reversed imprecise Markov chain still Markovian if it is imprecise. Can a time reversed imprecise Markov chain be analysed in terms of convex sets of probabilities. These questions will be addressed using the theory developed within the first line of research. 
+%	
+%	\item[\tiny$\blacksquare$]
+%	Partially independently from time reversal for general imprecise Markov chains we will study reversible Markov chains, which are those, whose stationary joint probability distributions do not change if the time is reversed within {\bf(Work Package 4b)}. We expect that families of reversible imprecise Markov chains can be constructed without necessarily having all answers regarding time reversal solved. As a starting point we will generalise the model of random walks on weighted graphs  proposed in \cite{skulj:16} to the continuous time framework.
+%\end{itemize}
+%We must first answer the question whether a time reversed imprecise Markov chain is still Markovian if it is imprecise, and what properties does it have. The next task is to identify reversible imprecise Markov chains, which are those, whose properties do not change if they are reversed. Along with the theoretical questions we will explore practical/computational aspects of the model proposed in \cite{skulj:16} extended to the continuous time framework. 
+%
+%Time reversal for imprecise Markov chains will be examined. 
+%In particular, we will find out under what conditions is a reverse process Markov, and specifically, whether it fits into the framework of imprecise Markov chains examined. 
+%In particular, we will examine the continuous time version of the model of random walks on graphs.  
+%(tentative title, feel free to change)
+
+*** Theoretical framework for reversible imprecise Markov chains, including time reversal in general. Are time reversed imprecise Markov processes even still Markovian etc. ***
+
+
+
+
+\vspace{5pt}
+\emph{Applications} {\bf (Work Package 5)}.
+\vspace{3pt}
+
+As ought to be clear from the discussion above, the proposed research does not work towards a specific application, nor does it try to build an ad-hoc model for some specific problem.
+Instead, the aim is to develop a general theory of continuous-time Markov chains.
+Nevertheless, if we succeed in doing so, then of course, our results can be used to study and solve a variety of practical problems. Since real applications are an ideal testing ground for new theoretical results, we would---if time permits---like to tackle such applications ourselves; the choice of applications will depend on the level of complexity that the developed framework will by then be able to deal with.
+
+
+% ## Addedd by Damjan
+
+%The first step in this project will be to \emph{develop robust versions of the basic building blocks of queueing models, that is, imprecise arrival and service-time processes} {\bf(Work Package 1)}.
+%Initially, given their popularity and importance, we will focus on developing imprecise versions of Poisson processes and exponential distributions, with increasing degrees of robustness.
+%A first level of robustness will be added by allowing the parameter of Poisson processes and exponential distributions to vary within intervals.
+%Next, additional layers of robustness will be added by allowing this parameter to be time-dependent and eventually even history-dependent.
+%We intend to achieve this in a very rigorous way, by dropping the independence axioms that are traditionally used to define Poisson processes and exponential distributions, and replacing them with increasingly weaker axioms.
+%Each additional layer of robustness will result in a more flexible and realistic uncertainty model, at the cost of increased theoretical and computational complexity.
+%However, given that the Data Science Lab has already successfully tackled this kind of issues for discrete-time robust stochastic processes~\cite{hermansITIP}, we expect to be able to obtain similar successes in this continuous-time case. In a later stage, we will try to robustify other continuous-time distributions and arrival processes, such as Erlang distributions and Markovian arrival processes.
+
+% % Damjan 
+
+
+
+% # Damjan
+
+%The second step in this project consists in using the imprecise arrival and service-time processes of the first step to \emph{develop robust queueing models} {\bf(Work Package 2)}.
+%Basically, the idea is to consider existing queueing models, and to replace their arrival and service-time processes by our imprecise versions.
+%We intend to start by developing a robust version of the $M/M/1$ queue, where customers arrive according to an imprecise Poisson process, one server serves the waiting customers in an FCFS order, and service times have an imprecise exponential distribution.
+%In the precise case, the number of customers in the queue can then be described by a continuous-time birth-death chain.
+%Similarly, we would like to show that in the imprecise case, the number of customers can be described by a continuous-time imprecise birth-death chain, which is a simple type of continuous-time imprecise Markov chain~\cite{Skulj2015}.
+%Similarly, for more complex queueing models, we intend to show that the number of customers can be described by more complex imprecise Markov chains.
+%
+%Clearly, step two will require us to \emph{establish a rigorous theoretical basis for continuous-time imprecise Markov chains}, and we regard this as a third part of this research {\bf(Work Package 3)}, which we intend to initiate before---and then continue in parallel with---the second step. Some preliminary research has already been conducted on this topic~\cite{Skulj2015}, including some recent unpublished work by the imprecise probability subunit of the Data Science Lab, but it is fair to say that there are still many unsolved basic theoretical and computational problems left. For example, past research on imprecise continous-time Markov chains only considered finite state spaces, whereas basic queueing theory often considers countably many states. %\todo{*** what do you mean by that? ***} *** references ***
+%
+%The three steps that were discussed above are purely theoretical, and consist of developing a formal framework in which to study imprecise arrival and service-time processes, imprecise Markov chains, and ways of combining these to construct robust queueing models.
+%In order to be able to use these models in practice, this formal framework will need to be complemented with efficient computational methods.
+%In particular, it will be necessary to develop methods that are able to provide us with exact bounds on performance measures---such as the average occupancy or delay---that reflect the extent to which the imprecision in the input affects the output.
+%Indeed, once we have these bounds, they can then be used to make robust a priori design choices while dimensioning a queueing system, such as determining the needed buffer space or the desired number of servers, in order to achieve the desired performance.
+%Similarly, for systems whose number of servers can vary over time, these bounds can be used to design robust dynamic server policies.
+%Given the importance of these bounds, a fourth step in this project will be to \emph{extend the existing computational methods for continuous-time imprecise Markov chains}~\cite{Skulj2015,Troffaes+GSB-ISIPTA15p}, and to \emph{use these methods to efficiently compute exact bounds on performance measures} {\bf(Work Package 4)}.
+%
+%Although we expect to reach the majority of the above goals, it might of course happen that we do not. For example, some types of performance measures might turn out to be inherently intractable to compute with, or we might come across stochastic processes for which adding three layers of robustness (allowing their parameters to be interval-valued, time- and history dependent) results in a model that is simply too complex to work with. However, even if we were to come across such problems, this will not endanger the global aim of the first part of this project, which is to develop robust continuous-time queueing models. Indeed, there are various types of stochastic processes, increasingly complex ways of adding robustness, and many performance measures of interest. Adding a modest amount of robustness to simple queueing models will definitely be possible, and this alone suffices to continue with the rest of this project. However, of course, our intention is to go much further: ideally, we would like to develop a general framework for working with robust continuous-time queueing models.
+%%In any case, regardless on how general our study ends up being, we definitely expect to be able to develop robust continuous-time queueing models, and this will allow us to move to a next step.
+%
+%As should have become clear from the explanation above, our proposed research does not work towards a specific application, neither does it try to build an ad hoc model for some specific problem.
+%Instead, our aim is to build a general framework for robust continuous-time queueing theory.
+%Nevertheless, if we succeed in developing such a general framework, then of course, it can be used to study and solve a variety of problems, in different types of queueing applications. In order to demonstrate this, we intend to \emph{use our framework to analyse one or two specific queueing applications} {\bf(Work Package 5)}.
+%Our choice of applications will depend on the level of complexity that our framework is able to deal with, but since robustness is an essential feature of our approach, we intend to focus on problems where this feature is important, that is, applications where the exact values of the parameters of the model are uncertain (e.g. telecommunication) and/or non-stationary (e.g. call centres \cite{Defraeye20164}).
+%
+%The purpose of this applied side of the project is only to test and validate the usefulness of our theory. Therefore, tackling this applied part will not require us to learn imprecise stochastic processes from data (e.g.\ Internet traces). For the purposes of this project, we can simply start from precise stochastic processes---learnt by means of existing methods, that is, by proposing a model that is deemed adequate and then applying estimation theory (see e.g.\ \cite{Breuer2002}) to estimate its parameters---and can then add increasing amounts of imprecision to these precise stochastic processes in order to study the robustness of the resulting outputs. %The initial precise model can then be learnt by means of existing methods, that is, by proposing a model that is deemed adequate and then applying estimation theory (see e.g.\ \cite{Breuer2002}) to estimate its parameters.
+%However, in a later phase, it would of course be better to \emph{develop methods for learning imprecise continuous-time stochastic processes directly from data} {\bf(Work Package 6)}. At this point, we envision that this last topic will only be marginally treated in the project. However, if necessary, it does provide us with a contingency plan that is of independent interest.
 
 \vspace{7pt}
 
@@ -347,32 +823,83 @@ Indicate for each WP the time that it is expected to take.
 You might use a table or another type of scheme to clarify the work plan. Clearly indicate the contribution of each project partner, taking into account the complementary expertise of the project partners.}
 
 
-*** this is a part of the text of some previous proposal, which could serve as an example of the type of text we are looking for here ***
+{\bf\color{blue} (WE WAIT WITH THIS PART FOR NOW...)}
 
-\begin{table}[H]
-    \caption{Summary and time line of work packages}
-    \label{tab:timing}
-    \centering
-    \resizebox{\textwidth}{!}{%
-        \begin{tabular}{r | l | c|c|c|c | c|c|c|c | c|c|c|c | c|c|c|c}
-           & \textbf{Short description} & \multicolumn{4}{c|}{\textbf{\nth{1} year}}   & \multicolumn{4}{c|}{\textbf{\nth{2} year}} & \multicolumn{4}{c|}{\textbf{\nth{3} year}} & \multicolumn{4}{c}{\textbf{\nth{4} year}} \\ \hline
-           \textbf{WP1} & Develop imprecise CT input processes    & x & x & x & x & o & o &   &   &   &   &   &   &   &   &   &    \\ \hline
-           \textbf{WP2} & Develop robust CT queueing models          &   &   &   & o  &  x & x & x  & x  & x & x & o & o  &  o &   &   &    \\ \hline
-           \textbf{WP3} & Develop imprecise CT Markov chains         &   &   & x & x & x & x & x & o & o &   &   &   &   &   &   &    \\ \hline
-           \textbf{WP4} & Design efficient algorithms  &   &   &   &   &   &   & o  & x & x & x & x & x & o & o &   &    \\ \hline
-           \textbf{WP5} & Apply our framework to real problems             &   &   &   &   &   &   &   &   &   &   & o & o & x & x & x & x \\ \hline
-           \textbf{WP6} & Learn imprecise CT models from data     &   &   &   &   &   &   &   &   & o & o & o & x & o & o & o & o
-        \end{tabular}
-    }
-\end{table}
 
-A Ph.D.\ fellowship, and therefore also the work on the proposed research, is spread over a period of four years.
-I have indicated these four years in Table~\ref{tab:timing}, and have divided every year in four periods of three months (i.e. quarters).
-The work of the proposed research was already divided in work packages in the previous section.
-For each work package, Table~\ref{tab:timing} provides a short description (CT stands for `continuous-time') and indicates the quarters during which I expect to be working on it.
-I tick the box of a quarter with an x to indicate almost certainties; these are the quarters during which I expect to definitely spend time on the indicated work package.
-I use o's to tick boxes of which I am not yet certain that I will need and/or use them.
-These o-quarters are used to absorb setbacks or to allow for some flexibility, and indicate the maximum amount of time that I intend to spend on a given work package. As explained in our methodology, the work on (WP2) is initiated after the work on (WP3) because it relies on some of its results. Furthermore, as also explained before, (WP6) is currently not at the core of the proposed research, but can serve as a contingency plan if necessary.
+At the universities of Ghent and Ljubljana, a PhD fellowship, and therefore also the work on the proposed research, is usually spread over a period of four years.
+We have indicated these four years in the table below, and have divided every year into four periods of three months (i.e.~quarters).
+The work on the proposed research has already been divided in work packages in the previous section.
+For each work package, the table provides a short description and indicates the quarters during which we expect the student to be working on it.
+We tick the box of a quarter with an x to indicate almost certainties; these are the quarters during which we expect her to definitely spend time on the indicated work package.
+We use o's to tick boxes for which we are not yet certain that she will need and/or use them.
+These o-quarters are used to absorb setbacks or to allow for some flexibility, and indicate the maximum amount of time that we intend the student to spend on a given work package.
+Of course, a good deal of the time in the last two quarters of year four will also be spent writing the PhD thesis, but we have not marked this in the table.
+
+\vspace{10pt}
+\begin{center}
+\resizebox{.95\textwidth}{!}{%
+\begin{tabular}{r|l|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c|c}
+& \emph{Short description} & \multicolumn{4}{c|}{\textbf{\nth{1} year}}   & \multicolumn{4}{c|}{\textbf{\nth{2} year}} & \multicolumn{4}{c|}{\textbf{\nth{3} year}} & \multicolumn{4}{c}{\textbf{\nth{4} year}} 
+\\ 
+\hline
+%\textbf{RL1} 
+& \textbf{Joint models and properties}
+&   \multicolumn{16}{c}{}     
+\\ \hline
+\textbf{WP1a} & Probability tree model  
+& x & x & o & o & o & o &   &   &   &   &   &   &   &   &   &    
+\\ \hline
+\textbf{WP1b} & Expression for the joint          
+&   & o & x & x & o & o &   &   &   &   &   &   &   &   &   &    
+\\ \hline
+\textbf{WP1c} & Mathematical properties         
+&   &   &   & o & x & x & x & o & o &   &   &   &   &   &   &    
+\\ \hline
+%\textbf{RL2} 
+& \textbf{Computational methods}
+&   \multicolumn{16}{c}{}     
+\\ \hline
+\textbf{WP2a} & Coefficients of ergodicity 
+&   &   &   &   &   &   & o & x & x & x & x & o & o & o &   &    
+\\ \hline
+\textbf{WP2b} & Compute thight bounds             
+&   &   &   &   &   &   &   &   &   & o & x & x & x & o & o & o 
+\\ \hline
+\textbf{WP2c} & Error estimation    
+&   &   &   &   &   &   &   &   &   &   & o & o & x & x & x & o
+\\ \hline
+\textbf{WP2d} & Perturbation analysis     
+&   &   &   &   &   &   &   &   &   &   & o & o & x & x & x & o
+\\ 
+\hline
+%\textbf{RL3} 
+& \textbf{Limit behaviour}
+&   \multicolumn{16}{c}{}     
+\\ \hline
+\textbf{WP3a} & Existence of limit distributions
+& x & x & o & o & o & o &   &   &   &   &   &   &   &   &   &    
+\\ \hline
+\textbf{WP3b} & Compute limit distributions      
+&   & o & x & x & o & o &   &   &   &   &   &   &   &   &   &    
+\\ \hline
+\textbf{WP3c} & Characterise limit distributions   
+&   &   &   & o & x & x & x & o & o &   &   &   &   &   &   &  
+\\ \hline 
+& \textbf{Contingency plans}
+&   \multicolumn{16}{c}{}     
+\\ \hline
+\textbf{WP4} & Time reversal 
+&   &   &   &   &   &   & o & x & x & x & x & o & o & o &   &    
+\\ \hline
+\textbf{WP5} & Applications         
+&   &   &   &   &   &   &   &   &   & o & x & x & x & o & o & o  
+\end{tabular}}
+\vspace{13pt}
+\end{center}
+% As explained in our methodology, the work on (WP2) is initiated after the work on (WP3) because it relies on some of its results. Furthermore, as also explained before, (WP6) is currently not at the core of the proposed research, but can serve as a contingency plan if necessary.
+
+
+As explained in our methodology, the work on (WP2) is initiated after the work on (WP3) because it relies on some of its results. Furthermore, as also explained before, (WP6) is currently not at the core of the proposed research, but can serve as a contingency plan if necessary.
 
 % Alternative:
 % \begin{table}[H]
@@ -408,7 +935,7 @@ These o-quarters are used to absorb setbacks or to allow for some flexibility, a
 
 \bibliographystyle{plain}
 \renewcommand\refname{\normalsize Enumerate the bibliographical references that are relevant for your research proposal.}
-\bibliography{bibliography}
+\bibliography{bibliography,general}
 
 \vspace{5mm}
 
@@ -416,5 +943,17 @@ These o-quarters are used to absorb setbacks or to allow for some flexibility, a
 \textit{FWO encourages its fellows to disseminate the results of their research widely, and valorize them where possible.}
 
 
+{\bf\color{blue} IF YOU HAVE ANY IDEAS FOR THIS, FEEL FREE TO WRITE SOMETHING ABOUT IT (``we have no idea'' is not a suitable answer)}
+
+*** I don't know how this fits. What do you think?
+
+Markov chains are among those probabilistic models, whose basics can be communicated to wide public with only general skills in mathematics. They can describe many practical examples that range from basic strategies to play certain games to demographic predictions or planning of workforce recruitment and promotion strategies. Additionally, models of imprecise probabilities have numerous interesting ways to communicate uncertainty, either in terms of intervals or means of visualization. 
+
+%<<<<<<< HEAD
+In addition to purely educative or demonstrative purposes, relatively simple web based tools can be developed that can serve even to support business processes. The Slovenian group has been previously involved in successful development of a web based platform for prediction and strategy testing for the structure of Slovenian armed forces. Platforms like that would additionally benefit from models allowing imprecise data.  
+%=======
+%In addition to purely educative or demonstrative purposes, relatively simple web based tools can be developed that can serve even to support business processes. The Slovenian group has been previously involved in successful development of a web based platform for prediction and strategy testing for the structure of Slovenian armed forces. Platforms like that would additionally benefit from models allowing imprecise data.
+%
+%>>>>>>> master
 
 \end{document}
